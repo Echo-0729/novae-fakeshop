@@ -1,1 +1,34 @@
+<!-- Author: Ong YiTing, 261273Y-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>novae.shop</title>
+</head>
+<body style="background-color: #fffbd5;"></body>
 
+<body>
+    <h1 style="text-align: center; font-style: italic;">Welcome to Novae☆</h1>
+    <p style="text-align: center; font-style: italic;">Where you can find your style through our sensational clothing and jewlery!</p>
+</body>
+
+<body>
+    <ul>
+        <li style="font-style: italic;"><a href="NovaeHome.html">Home</a></li>
+        <li style="font-style: italic;"><a href=".html">About Us</a></li>
+        <li style="font-style: italic;"><a href=".html">Product Catalogue</a></li>
+        <li style="font-style: italic;"><a href=".html">Feedback Form</a></li>
+        <li style="font-style: italic;"><a href=".html">Contact Us</a></li>
+</body>
+<hr>
+
+<body>
+    <h1 style="text-align: center; font-style: italic;">Look of the Month</h1>
+</body>
+<img src="image-url.jpg" alt="no image yet">
+<img src="image-url.jpg" alt="no image yet">
+<img src="image-url.jpg" alt="no image yet">
+
+
+
+</html>
