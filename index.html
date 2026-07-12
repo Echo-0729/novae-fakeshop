@@ -1,62 +1,67 @@
-<!-- Author: Ong YiTing, 261273Y-->
+<!-- Author: ONG YITING, 261273Y -->
+<!-- ^ Requirement (h): every HTML file in your project starts with this line. -->
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>novae.shop</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .nav-menu { display: flex;
-            justify-content: center;
-            list-style-type: none;
-            padding: 0;
-            display: flex;
-            margin: 0 auto;
-            gap: 25px; }
-        
-        .nav-menu a { text-decoration: none;
-            color: rgb(6, 45, 95);
-            font-family: sans-serif;
-            font-size: 19px; }
+<meta charset="UTF-8">
+    <!-- TODO A: change the title to YOUR team's store name + " — Home" -->
+<title>N✪VAE — Home</title>
 
-        table { border-collapse: collapse; margin: 0px auto; }
-        th,td { border: 1px solid black; padding: 12px; width: 650px; text-align: center; }
-    </style>
+    <!-- A tiny bit of styling so the table is readable today.
+         You'll move ALL styling into an external styles.css in Week 13. -->
+<style>
+    body  { font-family: default; max-width: 720px; margin: 24px auto; }
+    table { border-collapse: collapse; }
+    th, td { border: 1px solid #888; padding: 8px; text-align: left; }
+    caption { font-weight: bold; padding: 6px; }
+        
+    .nav { 
+        display: flex;
+        justify-content: center;
+        margin-bottom: 24px;
+        background-color: #f2f2f2;
+        padding: 15px 40px;
+        width: 100%;
+        box-sizing: border-box; }
+    .nav ul { 
+        display: flex; 
+        list-style-type: none; 
+        padding: 0; 
+        margin: 0;
+        gap: 30px; }
+    .nav a { 
+        text-decoration: none; 
+        color: #192299; 
+        font-family: default;
+        font-size: 20px; 
+        font-style: italic; }
+
+</style>
 </head>
-    
-    
-<!-- bg colour -->
 <body style="background-color: #ffffff;">
 
-<h1 style="text-align: center; font-style: italic; font-size: 45px;">N☆VAE</h1>
-<p style="text-align: center; font-style: italic; font-size: 18px;">find yourself through sensational clothing</p>
-<br>
-<hr>
-<br>
-    <ul class="nav-menu">
-        <li style="font-style: italic;"><a href="index.html">Home</a></li>
-        <li style="font-style: italic;"><a href="aboutUs.html">About Us</a></li>
-        <li style="font-style: italic;"><a href="products.html">Product Catalogue</a></li>
-        <li style="font-style: italic;"><a href="contactUsPage.html">Contact Us</a></li>
-        <li style="font-style: italic;"><a href="feedback.html">Feedback Form</a></li>
+    <!-- ============================================================
+         THIS IS YOUR REAL PROJECT PAGE.
+         By the end of this practical you will have a working homepage
+         for your group store — keep this file, you'll build on it all term.
+         Replace every "Bubble Tea Bros" idea with YOUR team's store.
+         ============================================================ -->
+
+    <!-- STEP 1 — Store name. Put your store's name as the main heading. -->
+<h1 style="text-align: center; font-style: italic; margin-bottom: 9px;">N✪VAE</h1>
+
+    <!-- STEP 2 — Navigation menu (Requirement b).
+         Make a list of 5 links: Home, Products, Order, About, Contact.
+         Pattern:  <li><a href="index.html">Home</a></li>
+         (the other pages don't exist yet — that's fine for now) -->
+<nav class="nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+            <!-- TODO Step 2: add the other 4 menu items -->
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="catalogue.html">Product Catalogue</a></li>
+        <li><a href="feedback.html">Feedback</a></li>
+        <li><a href="contactUsPage.html">Contact Us</a></li>
     </ul>
-<br>
-<hr>
-
-    <h1 style="text-align: center; font-style: italic; font-size: 40px;">Look of the Month</h1>
-    
-<table>   
-    <tr>
-        <th colspan="3">. . .</th>
-    </tr>
-    <tr>
-        <td><img src="showcase1.jpg" alt="showcaseOne"></td>
-        <td><img src="showcase2.jpg" alt="showcaseTwo"></td>
-        <td><img src="showcase3.jpg" alt="showcaseThree"></td>
-    </tr>
-</table> 
-
-</body>
-</html>
+</nav>
