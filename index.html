@@ -10,37 +10,10 @@
 
     <!-- A tiny bit of styling so the table is readable today.
          You'll move ALL styling into an external styles.css in Week 13. -->
-<style>
-    body  { font-family: default; max-width: 720px; margin: 24px auto; }
-    table { border-collapse: collapse; }
-    th, td { border: 1px solid #888; padding: 8px; text-align: left; }
-    caption { font-weight: bold; padding: 6px; }
-        
-    .nav { 
-        display: flex;
-        justify-content: center;
-        margin-bottom: 24px;
-        background-color: #f2f2f2;
-        padding: 15px 40px;
-        width: 100%;
-        box-sizing: border-box; }
-    .nav ul { 
-        display: flex; 
-        list-style-type: none; 
-        padding: 0; 
-        margin: 0;
-        gap: 30px; }
-    .nav a { 
-        text-decoration: none; 
-        color: #2c2604; 
-        font-family: default;
-        font-size: 20px; 
-        font-style: italic; }
-
-</style>
+<link rel="stylesheet" href="styles.css">
 </head>
 <!-- bg colour here: -->
-<body style="background-color: #ffffff;">
+<body>
 
     <!-- ============================================================
          THIS IS YOUR REAL PROJECT PAGE.
@@ -50,7 +23,7 @@
          ============================================================ -->
 
     <!-- STEP 1 — Store name. Put your store's name as the main heading. -->
-<h1 style="text-align: center; font-style: italic; margin-bottom: 9px;">
+<h1>
     N✪VAE
 </h1>
 
@@ -68,3 +41,30 @@
         <li><a href="contactUsPage.html">Contact Us</a></li>
     </ul>
 </nav>
+
+
+
+<h2>Best sellers</h2>
+    <div class="card">
+        <h3>Taro Milk Tea</h3>
+        <p>$4.20</p>
+    </div>
+    <div class="card">
+        <h3>Brown Sugar Boba</h3>
+        <p>$4.50</p>
+    </div>
+
+<h2>FAQ</h2>
+    <details>
+        <summary>Do you deliver?</summary>
+        <p>Yes! Islandwide via GrabFood, 10am to 9pm.</p>
+    </details>
+    <details>
+        <summary>Are your drinks halal certified?</summary>
+        <p>Yes, since 2024.</p>
+    </details>
+
+<!-- STEP 7 — Footer line. -->
+<hr>
+<p id="footer">© 2026 N✪VAE</p>
+</body>
