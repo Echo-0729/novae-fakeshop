@@ -18,7 +18,7 @@ h1 {
     gap: 100px;
     justify-content: center;
     margin: 0;
-    margin-bottom: 24px;
+    margin-bottom: 0px;
     margin-left: calc(-50vw + 50%);
     box-sizing: border-box; }
 .nav a { 
@@ -31,11 +31,30 @@ h1 {
 .nav a:hover { 
     color: #f2a33c; }
 
+.hero {
+    color: white; 
+    padding: 50px; 
+    margin: 0;
+    margin-bottom: 24px;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    border-radius: 12px;
+    background: linear-gradient(to right, #1b2a4a, #4a648f);}
+
+.hero p {
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+    margin: 0;}
+
 .card {
     background: white; padding: 16px; margin: 10px 0;
     border-radius: 12px;
     box-shadow: 4px 4px 10px #00000022;
     transition: 0.3s;}
+
+.card:hover {
+   box-shadow: 4px 4px 16px #00000033;}
 
 summary {
     cursor: pointer; font-weight: bold; padding: 5.5px 0;}
@@ -43,3 +62,4 @@ summary {
 #footer {
     font-style: italic;
     font-family: default;}
+
