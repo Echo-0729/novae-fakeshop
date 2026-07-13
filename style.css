@@ -1,1 +1,45 @@
+body  { font-family: default; max-width: 720px; margin: 24px auto; background-color: #ffffff;}
+table { border-collapse: collapse; }
+th, td { border: 1px solid #888; padding: 8px; text-align: left; }
+caption { font-weight: bold; padding: 6px; }
 
+h1 {
+    text-align: center; 
+    font-style: italic; 
+    margin-bottom: 9px; 
+    font-size: 45px;}
+
+.nav ul { 
+    list-style-type: none;  
+    background-color: #f2f2f2;
+    padding: 15px 40px;
+    width: 100vw;
+    display: flex; 
+    gap: 100px;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 24px;
+    margin-left: calc(-50vw + 50%);
+    box-sizing: border-box; }
+.nav a { 
+    text-decoration: none; 
+    color: #2c2604; 
+    font-family: default;
+    font-size: 20px; 
+    font-style: italic; 
+    transition: 0.3s;}
+.nav a:hover { 
+    color: #f2a33c; }
+
+.card {
+    background: white; padding: 16px; margin: 10px 0;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px #00000022;
+    transition: 0.3s;}
+
+summary {
+    cursor: pointer; font-weight: bold; padding: 5.5px 0;}
+
+#footer {
+    font-style: italic;
+    font-family: default;}
