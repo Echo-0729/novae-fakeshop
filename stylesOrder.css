@@ -1,1 +1,40 @@
+.hero {
+    position: relative;
+    min-height: 500px;
+    padding: 0px;
+    margin: 0 0 24px;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    background: url("EffortlessElegence.jpg") center/cover no-repeat;}
 
+.hero-overlay {
+    position: absolute;
+    left: 250px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: rgba(44, 38, 4, 0.5);
+    padding: 20px 24px;
+    max-width: 360px;
+    border-radius: 10px;}
+
+.hero-overlay p {
+    margin: 0 0 3px;
+    font-size: 16px;
+    color: #ffffff;}
+
+.hero-btn {
+    display: inline-block;
+    text-align: left;
+    padding: 10px 16px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.22);
+    transition: box-shadow 0.3s ease;}
+
+.hero-btn:hover {
+    box-shadow: 0 4px 16px rgba(0,0,0,0.44);}
