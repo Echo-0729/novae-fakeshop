@@ -72,7 +72,7 @@ body {
     margin: 0 0 24px;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
-    background: url("PlaceHolderBanner.jpg") center/cover no-repeat;}
+    background: url("PlaceHolderBanner.png") center/cover no-repeat;}
 .hero-all-overlay {
     position: absolute;
     left: 250px;
