@@ -1,3 +1,4 @@
+/* Author: ONG YITING, 261273Y */
 body  { font-family: default; max-width: 720px; margin: 24px auto; background-color: #ffffff;}
 table { border-collapse: collapse; }
 th, td { border: 1px solid #888; padding: 8px; text-align: left; }
@@ -82,7 +83,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-    background: rgba(44, 38, 4, 0.5);
+    background: rgba(255, 255, 255, 0.502);
     padding: 20px 24px;
     max-width: 360px;
     border-radius: 10px;}
@@ -90,7 +91,7 @@ body {
 .hero-all-overlay p {
     margin: 0 0 3px;
     font-size: 16px;
-    color: #ffffff;}
+    color: #2c2604;}
 
 /* Home hero banner */
 .hero {
@@ -100,7 +101,7 @@ body {
     margin: 0 0 24px;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
-    background: url("EffortlessElegence.jpg") center/cover no-repeat;}
+    background: url("EffortlessElegence-CottonbroStudio.jpg") center/cover no-repeat;}
 
 .hero-overlay {
     position: absolute;
@@ -112,12 +113,12 @@ body {
     gap: 10px;
     background: rgba(44, 38, 4, 0.5);
     padding: 20px 24px;
-    max-width: 360px;
+    max-width: 500px;
     border-radius: 10px;}
 
 .hero-overlay p {
     margin: 0 0 3px;
-    font-size: 16px;
+    font-size: 20px;
     color: #ffffff;}
 
 .hero-btn {
@@ -140,7 +141,17 @@ body {
     text-align: right; 
     font-style: italic; 
     margin-bottom: 9px; 
-    font-size: 34px;}
+    font-size: 34px;
+    max-width: 400px;}
+.txt {
+    text-align: right;
+    flex: 0 0 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0px;
+    margin-left: 100px;
+    margin-bottom: 130px;}
 
 .lookofmonth {
     display: flex;
@@ -152,7 +163,7 @@ body {
 
 .card-row {
     display: flex;
-    gap: 40px;
+    gap: 95px;
     justify-content: center;
     flex: 0 0 auto;}
 
@@ -172,15 +183,7 @@ body {
 .card-img img:hover {
     box-shadow: 0 4px 16px rgba(0,0,0,0.44);}    
 
-.txt {
-    flex: 0 0 240px;
-    max-width: 300px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding-left: 12px;
-    margin-left: 200px;
-    margin-bottom: 130px;}
+
 
 .look-desc {
     text-align: right;
@@ -233,9 +236,13 @@ body {
 /* Home About Us & FAQ */
 .h2AU {
     text-align: left; 
+    margin-left: -190px;
     font-style: italic; 
     margin-bottom: 9px; 
     font-size: 35px;}
+.pAU {
+    text-align: left;
+    margin-left: -190px;}
 
 /* footer */
 summary {
