@@ -75,37 +75,27 @@ margin-right: calc(-50vw + 50%);
 background: url("EffortlessElegence.jpg") center/cover no-repeat;}
 }
 
-.hero-overlay {
-    position: absolute;
-    left: 35px;
-    top: 45px;
+.hero-all {
+position: relative;
+min-height: 500px;
+padding: 0px;
+margin: 0 0 24px;
+margin-left: calc(-50vw + 50%);
+margin-right: calc(-50vw + 50%);
+background: url("download.jpg") center/cover no-repeat;}
 
-    width: 180px;
-    padding: 18px 20px;
-
-    background: rgba(255, 255, 255, 0.25);
-    border: 2px solid black;
-    border-radius: 15px;
-
-    color: black;
-    text-align: left;
-}
-
-.hero-overlay h1 {
-    margin: 0 0 6px;
-    font-size: 27px;
-    font-weight: bold;
-}
-
-.hero-overlay p {
-    margin: 0;
-    font-size: 16px;
-}
-
-.hero-overlay a {
-    color: black;
-    text-decoration: none;
-}
+.hero-all-overlay {
+position: absolute;
+left: 250px;
+bottom: 20px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+background: rgba(44, 38, 4, 0.5);
+padding: 20px 24px;
+max-width: 360px;
+border-radius: 10px;}
 .hero-btn {
     display: inline-block;
     text-align: left;
