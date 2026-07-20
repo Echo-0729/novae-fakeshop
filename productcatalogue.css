@@ -189,6 +189,11 @@ body {
     grid-template-columns: repeat(3, minmax(0,1fr));
     gap: 28px 52px;
 }
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 28px 52px;
+}
 .product-card {
     text-align: centre;
 }
@@ -230,11 +235,15 @@ body {
     font-style: italic; 
     margin-bottom: 9px; 
     font-size: 35px;}
-
-/* footer */
-summary {
-    cursor: pointer; font-weight: bold; padding: 5.5px 0;}
-
-#footer {
-    font-style: italic;
-    font-family: default;}
+.site footer {
+    min-height: 112px;
+    padding: 24px 20px;
+    display: grid;
+    place-content: center;
+    text-align: centre;
+    background: #050505;
+    color: #fff;
+    font-size: 11px;
+    line-hei
+    margin: 2px 0;
+}
