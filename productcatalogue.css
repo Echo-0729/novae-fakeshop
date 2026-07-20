@@ -62,4 +62,30 @@ body {
     transition: 0.3s;}
 .nav a:hover { 
     color: #f2a33c; }
+.hero {
+    position: relative;
+    min-height: 400px;
+    padding: 0px;
+    margin: 0 0 24px;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    }
+
+.hero-overlay {
+    position: absolute;
+    left: 250px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: rgba(44, 38, 4, 0.5);
+    padding: 20px 24px;
+    max-width: 360px;
+    border-radius: 10px;}
+
+.hero-overlay p {
+    margin: 0 0 5px;
+    font-size: 16px;
+    color: #ffffff;}
 
