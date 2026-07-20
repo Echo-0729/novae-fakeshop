@@ -65,15 +65,6 @@ body {
 
 
 /* All Hero Banners */
-.hero {
-    position: relative;
-    min-height: 500px;
-padding: 0px;
-margin: 0 0 24px;
-margin-left: calc(-50vw + 50%);
-margin-right: calc(-50vw + 50%);
-background: url("EffortlessElegence.jpg") center/cover no-repeat;}
-}
 
 .hero {
     position: relative;
@@ -84,38 +75,63 @@ background: url("EffortlessElegence.jpg") center/cover no-repeat;}
     margin-right: calc(-50vw + 50%);
     background: url("EffortlessElegence.jpg") center/cover no-repeat;}
 
-.hero-overlay {
+.hero-overlay{
     position: absolute;
-    left: 250px;
-    bottom: 20px;
+
+    left: 40px;
+    top: 50%;
+    transform: translateY(-50%);
+
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 10px;
-    background: rgba(44, 38, 4, 0.5);
-    padding: 20px 24px;
-    max-width: 360px;
-    border-radius: 10px;}
 
-.hero-overlay p {
-    margin: 0 0 3px;
-    font-size: 16px;
-    color: #ffffff;}
+    width: 230px;
 
-.hero-btn {
-    display: inline-block;
-    text-align: left;
-    padding: 10px 16px;
-    background: white;
+    padding: 25px;
+
+    background: rgba(255,255,255,0.35);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 12px;
+}
+
+/* =========================
+   PRODUCTS Heading
+========================= */
+
+.hero-overlay h1{
+    margin: 0;
+    font-size: 38px;
+    font-weight: bold;
+    color: black;
+}
+
+/* =========================
+   Breadcrumb
+========================= */
+
+.hero-overlay p{
+    margin: 0;
+    font-size: 18px;
+    color: black;
+}
+
+/* =========================
+   Home Link
+========================= */
+
+.hero-btn{
     color: black;
     text-decoration: none;
-    border-radius: 3px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.22);
-    transition: box-shadow 0.3s ease;}
+    font-weight: 600;
+}
 
-.hero-btn:hover {
-    box-shadow: 0 4px 16px rgba(0,0,0,0.44);}
-
+.hero-btn:hover{
+    text-decoration: underline;
+}
 .card-row {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
