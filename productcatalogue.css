@@ -146,7 +146,7 @@ body {
 
 .card-img img {
     width: 110%;
-    height: 400px;
+    height: 200px;
     object-fit: cover;
     border-radius: 5px;
     display: block;
@@ -179,12 +179,12 @@ body {
         .product-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0,1fr));
-    gap: 28px 52px;
+    gap: 50px 50px;
 }
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0,1fr));
-    gap: 28px 52px;
+    gap: 50px 50px;
 }
 .product-card {
     text-align: centre;
