@@ -135,20 +135,6 @@ body {
     box-shadow: 0 4px 16px rgba(0,0,0,0.44);}
 
 
-/* Look of the Month */
-.h3Look {
-    text-align: right; 
-    font-style: italic; 
-    margin-bottom: 9px; 
-    font-size: 34px;}
-
-.lookofmonth {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    justify-content: flex-start;
-    margin-top: 20px;
-    margin-left: -200px;}
 
 .card-row {
     display: flex;
@@ -181,35 +167,42 @@ body {
     padding-left: 12px;
     margin-left: 200px;
     margin-bottom: 130px;}
+.filter-panel {
+    align-self: start;
+}
+.filter panel label {
+    display:block;
+    marin-bottom:9px;
+    colour: #666;
+    font-size: 18px;
+}
+.filter-panel select {
+    width: 100%
+        min-height: 38px;
+    padding: 7px 8px
+        border:1px solid #777;
+    background: #fff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 12px
+        .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 28px 52px;
+}
+.product-card {
+    text-align: centre;
+}
+.product-card {
+    aspect-ratio;1/1;
+    overflow:hidden;
+    background:
+    radial-gradient(ellipse at 55% 24%, white 0 9%, transparent 10%),
+     radial-gradient(ellipse at 44% 27%, white 0 8%, transparent 9%),
+     radial-gradient(ellipse at 65% 28%, white 0 7%, transparent 8%),
+    linear-gradient(to bottom, #d9efff 0 66%, #bdd875 67% 79%, #86a72b 80% 100%);
+}
 
-.look-desc {
-    text-align: right;
-    margin: 0;
-    padding: 0;}
 
-
-/* Home Best Sellers */
-.card {
-    background: #2c2604;
-    color: #ffffff;
-    padding: 16px;
-    margin: 10px 0;
-    border-radius: 12px;
-    box-shadow: 4px 4px 10px rgba(0,0,0,0.22);
-    transition: 0.3s;}
-.card-info {
-    background: #2c2604;
-    color: #ffffff;
-    padding: 12px;
-    margin-top: 10px;
-    border-radius: 12px;
-    transition: 0.3s;}
-
-.card-info h3,
-.card-info p {
-    color: #ffffff;
-    margin: 0;
-    text-align: center;}
 
 .card a {
     text-decoration: none;}
@@ -228,6 +221,7 @@ body {
 .card:hover .card-info h3,
 .card:hover .card-info p {
     color: #f2a33c;}
+
 
 
 /* Home About Us & FAQ */
