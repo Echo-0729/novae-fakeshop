@@ -135,7 +135,7 @@ body {
 .card-row {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 60px;
+    gap: 80px;
     max-width: 1900px;
     margin: 0 auto;
 }
@@ -145,8 +145,8 @@ body {
 }
 
 .card-img img {
-    width: 110%;
-    height: 200px;
+    width: 160%;
+    height: 400px;
     object-fit: cover;
     border-radius: 5px;
     display: block;
