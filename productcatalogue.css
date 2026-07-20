@@ -103,17 +103,16 @@ body {
     background: url("EffortlessElegence.jpg") center/cover no-repeat;}
 
 .hero-overlay {
-    position: absolute;
-    left: 250px;
-    bottom: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
-    gap: 10px;
-    background: rgba(44, 38, 4, 0.5);
-    padding: 20px 24px;
-    max-width: 360px;
-    border-radius: 10px;}
+    background: rgba(0, 0, 0, 0.45);
+    padding: 25px 35px;
+    max-width: 320px;
+    border-radius: 8px;
+    height:180px;
+}
 
 .hero-overlay p {
     margin: 0 0 3px;
