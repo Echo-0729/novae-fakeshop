@@ -137,8 +137,9 @@ body {
 
 
 .card-row {
-    display: flex;
+    display: grid;
     gap: 40px;
+    grid-template-columns: repeat(3, minmax(0,1fr));
     justify-content: center;
     flex: 0 0 auto;}
 
