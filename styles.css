@@ -40,7 +40,7 @@ body {
     background-color: #fffee1;}
 
 
-/* Home navigation bar */
+/* All navigation bar */
 .nav ul { 
     list-style-type: none;  
     background-color: #2c2604;
@@ -160,7 +160,7 @@ body {
     padding: 0;}
 
 
-/* Best Sellers */
+/* Home Best Sellers */
 .card {
     background: #2c2604;
     color: #ffffff;
@@ -202,7 +202,7 @@ body {
     color: #f2a33c;}
 
 
-/* About Us & FAQ */
+/* Home About Us & FAQ */
 .h2AU {
     text-align: left; 
     font-style: italic; 
