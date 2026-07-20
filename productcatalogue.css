@@ -88,4 +88,9 @@ body {
     margin: 0 0 -20px;
     font-size: 16px;
     color: #ffffff;}
-
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
