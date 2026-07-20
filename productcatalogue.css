@@ -129,11 +129,11 @@ background: url("EffortlessElegence.jpg") center/cover no-repeat;}
 }
 
 .card-img {
-    width: 100%;
+    width: 110%;
 }
 
 .card-img img {
-    width: 100%;
+    width: 110%;
     height: 400px;
     object-fit: cover;
     border-radius: 5px;
