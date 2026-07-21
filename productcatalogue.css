@@ -161,7 +161,7 @@ body {
 
 
 .filter-panel {
-    align-self: start;
+    align-self: left;
 }
 .filter-panel label {
     display:block;
@@ -188,7 +188,7 @@ body {
     gap: 50px 50px;
 }
 .product-card {
-    text-align: centre;
+    text-align:left;
 }
 .product-card {
     aspect-ratio;1/1;
