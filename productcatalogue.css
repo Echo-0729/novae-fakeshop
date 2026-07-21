@@ -162,7 +162,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, minmax(0,1fr));
     gap: 100px;
-    max-width: 1400px;
+    max-width: 2000px;
     justify-content: center;
         flex:0 0 auto;
 }
@@ -219,7 +219,7 @@ body {
     text-decoration: none;}
 
 .card img {
-    width: 370px;
+    width: 200px;
     height: auto;
     border-radius: 5px;
     margin-bottom: 10px;}
