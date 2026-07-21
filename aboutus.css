@@ -96,8 +96,6 @@ body {
     text-decoration: none;
     transition: 0.3s;
     font-weight: 300;
-    backdrop-filter:blur(6px)
-    -webkit-backdrop-filter: blur(6px)
 }
 
 .hero-all-btn:hover {
