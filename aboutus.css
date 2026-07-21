@@ -71,17 +71,28 @@ body {
     margin-right: calc(-50vw + 50%);
     background: url("download.jpg") center/cover no-repeat;}
 
+Your CSS is very close! The reason the box isn't in the middle-left is because you're using:
+
+bottom: 60px;
+
+This places the box 60px from the bottom, not in the middle.
+
+Replace your .hero-all-overlay with this:
 .hero-all-overlay {
     position: absolute;
-    left: 40px;
-    bottom: 60px;
+    left: 40px;             
+    top: 50%;                
+    transform: translateY(-50%);
+
     display: flex;
     flex-direction: column;
     gap: 10px;
+
     padding: 25px;
     background: rgba(255, 255, 255, 0.35);
     width: 230px;
-    border-radius: 12px;}
+    border-radius: 12px;
+}
 
 .hero-all-overlay p{
     margin-top:20px;
@@ -103,9 +114,8 @@ body {
     text-decoration: underline;
 }
 .hero-all-overlay h1{
-    margin:0;
-    text-align:absoulute;
-    font-size:40px;
-    font-style:italic;
-    color:black;
-}
+    margin: 0;
+    text-align: left;
+    font-size: 40px;
+    font-style: italic;
+    color: black;
