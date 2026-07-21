@@ -64,7 +64,7 @@ body {
     color: #f2a33c; }
 .hero-all {
     position: relative;
-    min-height: 700px;
+    min-height: 670px;
     padding: 0px;
     margin: 0 0 24px;
     margin-left: calc(-50vw + 50%);
@@ -73,21 +73,24 @@ body {
 
 .hero-all-overlay {
     position: absolute;
-    left: 250px;
-    bottom: 100px;
+    left: 50px;
+    bottom: 70px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
     background: rgba(255, 255, 255, 0.4);
-    padding: 20px 24px;
+    padding: 25px 24px;
     width: 280px;
-    border-radius: 10px;}
+    border-radius: 12px;}
 
-.hero-all-overlay p {
-    margin: 0 0 3px;
-    font-size: 50px;
-    color: #2c2604;}
+.hero-all-overlay p{
+    margin-top:20px;
+    text-align:left;
+    font-size:22px;
+    color:black;
+}
+
 .hero-all-btn,
 .hero-all-btn:visited {
     color: black;
@@ -98,4 +101,11 @@ body {
 .hero-all-btn:hover {
     color: #f2a33c;
     text-decoration: underline;
+}
+.hero-all-overlay h1{
+    margin:0;
+    text-align:left;
+    font-size:60px;
+    font-style:italic;
+    color:black;
 }
