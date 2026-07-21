@@ -65,7 +65,7 @@ body {
 
 .hero-all {
     position: relative;
-    min-height: 500px;
+    min-height: 700px;
     padding: 0px;
     margin: 0 0 24px;
     margin-left: calc(-50vw + 50%);
@@ -74,16 +74,17 @@ body {
 
 .hero-all-overlay {
     position: absolute;
-    left: 40px;             
-    top: 30%;                
+    left: 50px;
+    top: 50%;
     transform: translateY(-50%);
+
+    width: 300px;
+    padding: 30px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.4);
+
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    padding: 25px;
-    background: rgba(255, 255, 255, 0.35);
-    width: 230px;
-    border-radius: 12px;
 }
 
 .hero-all-overlay p{
