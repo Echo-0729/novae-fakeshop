@@ -79,7 +79,7 @@ body {
     transform: translateY(-50%);
 
     width: 230px;
-    padding: 20px 24px;
+    padding: 25;
     border-radius: 10px;
     background: rgba(255,255,255,0.35);
     backdrop-filter: blur(6px);
