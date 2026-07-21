@@ -175,44 +175,14 @@ body {
     max-width: 2000px;
     justify-content: center;
         flex:0 0 auto;
-}
 .card {
-    background-color: #2c2604;
+    background: #2c2604;
     color: #ffffff;
     padding: 16px;
     margin: 10px 0;
     border-radius: 12px;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.22);
     transition: 0.3s;}
-
-.card-img img {
-   width: 110%;
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    display: block;
-    object-fit: cover;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.22);
-    transition: box-shadow 0.3s ease;}
-}
-
-.card-img img:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 16px rgba(0,0,0,0.44);
-}
-
-.card img h3 {
-    margin: 10px 0 2px;
-    font-size: 19px;
-    font-weight: 400;
-}
-.card img p {
-    margin: 0;
-    font-size: 16px;
-}
-
-
-
 .card-info {
     background: #2c2604;
     color: #ffffff;
@@ -231,12 +201,10 @@ body {
     text-decoration: none;}
 
 .card img {
-   width: 370px;
+    width: 370px;
     height: auto;
     border-radius: 5px;
     margin-bottom: 10px;}
-}
-
 
 .card:hover,
 .card:hover .card-info {
@@ -245,5 +213,6 @@ body {
 .card:hover .card-info,
 .card:hover .card-info h3,
 .card:hover .card-info p {
+    color: #f2a33c;}
     color: #f2a33c;}
 
