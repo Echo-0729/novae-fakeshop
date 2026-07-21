@@ -168,13 +168,10 @@ body {
 
 
 .card-row {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0,1fr));
-    column-gap: 100px;
-    row-gap:45px;
-    max-width: 2000px;
+   display: flex;
+    gap: 95px;
     justify-content: center;
-        flex:0 0 auto;
+    flex: 0 0 auto;}
 .card {
     background: #2c2604;
     color: #ffffff;
