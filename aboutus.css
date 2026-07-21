@@ -64,7 +64,7 @@ body {
     color: #f2a33c; }
 .hero-all {
     position: relative;
-    min-height: 350px;
+    min-height: 500px;
     padding: 0px;
     margin: 0 0 24px;
     margin-left: calc(-50vw + 50%);
@@ -95,5 +95,4 @@ body {
 }
 .hero-all:hover {
     text-decoration: underline 
-    color: black;
 }
