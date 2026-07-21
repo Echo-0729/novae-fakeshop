@@ -79,11 +79,9 @@ body {
     transform: translateY(-50%);
 
     width: 230px;
-    padding: 25;
+    padding: 25px;
     border-radius: 10px;
     background: rgba(255,255,255,0.35);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
      border: 1px solid rgba(0,0,0,0.5);
 
     display: flex;
