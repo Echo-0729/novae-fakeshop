@@ -74,21 +74,21 @@ body {
 .hero-all-overlay {
     position: absolute;
     left: 40px;
-    bottom: 30;
-    transform: translateY(-50%);
+    bottom: 30px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: 25px;
     background: rgba(255, 255, 255, 0.35);
     backdrop-filter:blur(6px)
     -webkit-backdrop-filter: blur(6px)
-    width: 200px;
+    width: 230px;
     border-radius: 12px;}
 
-.hero-all-overlay h1{
+.hero-all-overlay p{
     margin-top:20px;
     text-align:left;
-    font-size:22px;
+    font-size:18px;
     color:black;
 }
 
