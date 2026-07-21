@@ -74,7 +74,7 @@ body {
 .hero-all-overlay {
     position: absolute;
     left: 40px;
-    bottom: 50%;
+    bottom: 30;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
@@ -85,7 +85,7 @@ body {
     width: 200px;
     border-radius: 12px;}
 
-.hero-all-overlay p{
+.hero-all-overlay h1{
     margin-top:20px;
     text-align:left;
     font-size:22px;
