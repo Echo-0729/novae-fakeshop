@@ -176,13 +176,14 @@ body {
     transition: 0.3s;}
 
 .card-img img {
-    width: 250px;
-    height: 400px;
-    object-fit: cover;
+   width: 110%;
+    max-width: 100%;
+    height: auto;
     border-radius: 5px;
     display: block;
+    object-fit: cover;
     box-shadow: 0 4px 10px rgba(0,0,0,0.22);
-    transition: box-shadow 0.3s ease;
+    transition: box-shadow 0.3s ease;}
 }
 
 .card-img img:hover {
@@ -219,10 +220,11 @@ body {
     text-decoration: none;}
 
 .card img {
-    width: 200px;
+   width: 370px;
     height: auto;
     border-radius: 5px;
     margin-bottom: 10px;}
+}
 
 
 .card:hover,
