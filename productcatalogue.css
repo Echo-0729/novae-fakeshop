@@ -135,7 +135,7 @@ body {
 }
 .card-row {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 100px;
     max-width: 1900px;
     margin: 0 auto;
@@ -177,20 +177,15 @@ body {
     background: #fff;
     font-family: Georgia, "Times New Roman", serif;
     font-size: 12px
-        .product-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0,1fr));
-    gap: 50px 50px;
 }
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0,1fr));
-    gap: 50px 50px;
-}
+    
 .product-card {
     text-align:left;
 }
 .product-card {
+   text-align: center;
+}
+.product-image {
     aspect-ratio;1/1;
     overflow:hidden;
     background:
@@ -232,23 +227,3 @@ body {
 .card:hover .card-info p {
     color: #f2a33c;}
 
-
-
-/* Home About Us & FAQ */
-.h2AU {
-    text-align: left; 
-    font-style: italic; 
-    margin-bottom: 9px; 
-    font-size: 35px;}
-.site-footer {
-    min-height: 112px;
-    padding: 24px 20px;
-    display: grid;
-    place-content: center;
-    text-align: centre;
-    background: #050505;
-    color: #fff;
-    font-size: 11px;
-    line-hei
-    margin: 2px 0;
-}
