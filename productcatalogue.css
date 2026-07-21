@@ -142,11 +142,11 @@ body {
 }
 
 .card-img {
-    width: 110%;
+    width: 160px;
 }
 
 .card-img img {
-    width: 160%;
+    width: 160px;
     height: 400px;
     object-fit: cover;
     border-radius: 5px;
