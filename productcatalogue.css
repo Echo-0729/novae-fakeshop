@@ -242,32 +242,3 @@ body {
   font-style: normal;
 }
 
-/* Smaller screens */
-@media (max-width: 1000px) {
-  .product-section {
-    grid-template-columns: 200px 1fr;
-    gap: 30px;
-  }
-
-  .card-row {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 35px;
-  }
-}
-
-/* Phone layout */
-@media (max-width: 650px) {
-  .product-section {
-    display: block;
-    width: 90%;
-  }
-
-  .filter-panel {
-    position: static;
-    margin-bottom: 30px;
-  }
-
-  .card-row {
-    grid-template-columns: 1fr;
-  }
-
