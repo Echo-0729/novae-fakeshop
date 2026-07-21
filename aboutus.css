@@ -64,7 +64,7 @@ body {
     color: #f2a33c; }
 .hero-all {
     position: relative;
-    min-height: 670px;
+    min-height: 500px;
     padding: 0px;
     margin: 0 0 24px;
     margin-left: calc(-50vw + 50%);
@@ -73,15 +73,15 @@ body {
 
 .hero-all-overlay {
     position: absolute;
-    left: 50px;
-    bottom: 70px;
+    left: 40px;
+    bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
-    background: rgba(255, 255, 255, 0.4);
-    padding: 25px 24px;
-    width: 280px;
+    background: rgba(255, 255, 255, 0.35);
+    padding: 25px;
+    width: 230px;
     border-radius: 12px;}
 
 .hero-all-overlay p{
@@ -96,10 +96,11 @@ body {
     color: black;
     text-decoration: none;
     transition: 0.3s;
+    font-weight: 600;
 }
 
 .hero-all-btn:hover {
-    color: #f2a33c;
+    color: black;
     text-decoration: underline;
 }
 .hero-all-overlay h1{
