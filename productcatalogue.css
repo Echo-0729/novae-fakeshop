@@ -136,7 +136,7 @@ body {
 .card-row {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 100px;
+    gap: 95px;
     max-width: 1900px;
     margin: 0 auto;
 }
