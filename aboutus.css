@@ -65,7 +65,7 @@ body {
 
 .hero-all {
     position: relative;
-    min-height: 500px;
+    min-height: 400px;
     padding: 0px;
     margin: 0 0 24px;
     margin-left: calc(-50vw + 50%);
