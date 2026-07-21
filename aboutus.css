@@ -97,7 +97,7 @@ body {
     color: black;
     text-decoration: none;
     transition: 0.3s;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 .hero-all-btn:hover {
@@ -106,8 +106,8 @@ body {
 }
 .hero-all-overlay h1{
     margin:0;
-    text-align:left;
-    font-size:50px;
+    text-align:absoulute;
+    font-size:40px;
     font-style:italic;
     color:black;
 }
