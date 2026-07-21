@@ -163,16 +163,16 @@ body {
 .filter-panel {
     align-self: start;
 }
-.filter panel label {
+.filter-panel label {
     display:block;
     marin-bottom:9px;
-    colour: #666;
+    color: #666;
     font-size: 18px;
 }
 .filter-panel select {
-    width: 100%
+    width: 100%;
         min-height: 38px;
-    padding: 7px 8px
+    padding: 7px 8px;
         border:1px solid #777;
     background: #fff;
     font-family: Georgia, "Times New Roman", serif;
