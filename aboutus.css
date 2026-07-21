@@ -64,7 +64,7 @@ body {
     color: #f2a33c; }
 .hero-all {
     position: relative;
-    min-height: 400px;
+    min-height: 350px;
     padding: 0px;
     margin: 0 0 24px;
     margin-left: calc(-50vw + 50%);
