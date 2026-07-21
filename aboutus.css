@@ -110,6 +110,12 @@ color: black;
     color: black;
     
 }
+.about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    width:100%;
+    margin:50px auto;
+}
 
 .image-box img{
     width:100%;
