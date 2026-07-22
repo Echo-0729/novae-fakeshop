@@ -1,30 +1,34 @@
-const filter = document.querySelector("#filter");
-const productGrid = document.querySelector("#productGrid");
+document.addEventListener("DOMContentLoaded", function () {
+  const filter = document.getElementById("filter");
+  const productGrid = document.getElementById("productGrid");
+  const products = Array.from(productGrid.querySelectorAll(".card"));
 
-filter.addEventListener("change", () => {
-  const selectedValue = filter.value;
-  const products = Array.from(document.querySelectorAll(".card")];
+  filter.addEventListener("change", function () {
+    const selectedValue = filter.value;
 
-  if (selectedValue === "low-high") {
-    products
-      .sort((a, b) => 
- {return Number(a.dataset.price) - Number(b.dataset.price);
-    });
-    products.forEach(product => {
-      product.style.display = "block";   
-      productGrid.appendChild(product);
-    });
+    // Sort products by price
+    if (selectedValue === "low-high") {
+      products
+        .sort(function (a, b) {
+          return Number(a.dataset.price) - Number(b.dataset.price);
+        })
+        .forEach(function (product) {
+          product.style.display = "";
+          productGrid.appendChild(product);
+        });
 
-    return;
-  }
-
-  products.forEach(product => {
-   const categories = product.dataset.category.split(" ");
-
-    if (categories.includes(selectedValue)) {
-      product.style.display = "block";
-    } else {
-      product.style.display = "none";
+      return;
     }
+
+    // Show only products in the selected category
+    products.forEach(function (product) {
+      const categories = product.dataset.category.split(" ");
+
+      if (categories.includes(selectedValue)) {
+        product.style.display = "";
+      } else {
+        product.style.display = "none";
+      }
+    });
   });
 });
