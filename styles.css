@@ -192,7 +192,8 @@ body {
     box-shadow: 0 4px 16px rgba(0,0,0,0.44);}    
 
 .discount {
-    color: #cc0202;}
+    color: #cc0202;
+    font-style: italics}
 
 .look-desc {
     text-align: right;
