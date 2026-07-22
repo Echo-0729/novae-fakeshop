@@ -1,4 +1,4 @@
-body  { font-family: default; margin: 24px auto; background-color: #ffffff;}
+body  { font-family: default; width: 100%; margin: 24px auto; background-color: #ffffff;}
 table { border-collapse: collapse; }
 th, td { border: 1px solid #888; padding: 8px; text-align: left; }
 caption { font-weight: bold; padding: 6px; }
