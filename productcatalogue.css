@@ -1,4 +1,4 @@
-body  { font-family: default; max-width: 720px; margin: 24px auto; background-color: #ffffff;}
+body  { font-family: default; max-width: 100%; margin: 24px auto; background-color: #ffffff;}
 table { border-collapse: collapse; }
 th, td { border: 1px solid #888; padding: 8px; text-align: left; }
 caption { font-weight: bold; padding: 6px; }
@@ -99,12 +99,6 @@ body {
    PRODUCTS Heading
 ========================= */
 
-.hero-overlay h1{
-    text-align: center; 
-    font-style: italic; 
-    margin-bottom: 9px; 
-    font-size: 45px;
-}
 
 /* =========================
    Breadcrumb
