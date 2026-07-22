@@ -244,19 +244,46 @@ body {
 
 /* Home About Us & FAQ */
 .h2AU {
-    text-align: left; 
-    margin-left: -190px;
+    text-align: center; 
+    margin-left: 0;
     font-style: none; 
-    margin-bottom: 9px; 
+    margin-bottom: 9px;
     font-size: 35px;}
+
+.aboutUs {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+    flex-wrap: nowrap;
+    margin: 16px 0 24px;}
+
 .pAU {
     text-align: left;
-    margin-left: -190px;}
+    margin: 0;
+    flex: 1 1 auto;
+    margin-left: -100px;}
+
+.logo {
+    width: 290px;
+    height: auto;
+    margin: 0;
+    margin-right: -100px;
+    display: block;
+    flex-shrink: 0;}
+
 
 /* footer */
 summary {
-    cursor: pointer; font-weight: bold; padding: 5.5px 0;}
+    cursor: pointer; 
+    font-weight: bold; 
+    padding: 5.5px 0;}
+
+hr {
+    width: 1000px;
+    margin: 24px auto;
+    display: block;}
 
 #footer {
-    font-style: none;
+    font-style: italic;
     font-family: default;}
