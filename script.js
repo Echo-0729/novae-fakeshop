@@ -9,7 +9,7 @@ menuButton.addEventListener("click", () => {
 
 filter.addEventListener("change", () => {
   const selectedValue = filter.value;
-  const products = [...document.querySelectorAll(".product-card")];
+  const products = [...document.querySelectorAll(".card")];
 
   if (selectedValue === "low-high") {
     products
