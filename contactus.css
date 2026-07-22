@@ -33,6 +33,17 @@ h5 {
     font-style: italic; 
     margin-bottom: 5px; 
     font-size: 25px;}
+h6 {
+    text-align:left; 
+    font-style: italic; 
+    margin-bottom: 5px; 
+    font-size: 25px;}
+h7 {
+    text-align:left; 
+    font-style: italic; 
+    margin-bottom: 5px; 
+    font-size: 25px;}
+
 
 p {
     text-align:left; 
