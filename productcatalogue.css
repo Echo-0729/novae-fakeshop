@@ -11,12 +11,6 @@ caption { font-weight: bold; padding: 6px; }
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);}
 
-.h1-novae {
-    text-align: center; 
-    font-style: italic; 
-    margin-bottom: 9px; 
-    font-size: 45px;}
-
 h1 {
     text-align: center; 
     font-style: italic; 
