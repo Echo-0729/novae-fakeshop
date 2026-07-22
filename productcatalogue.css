@@ -100,10 +100,10 @@ body {
 ========================= */
 
 .hero-overlay h1{
-    margin: 0;
-    font-size: 38px;
-    font-weight: none;
-    color: black;
+    text-align: center; 
+    font-style: italic; 
+    margin-bottom: 9px; 
+    font-size: 45px;
 }
 
 /* =========================
