@@ -28,6 +28,11 @@ h3 {
     font-style: italic; 
     margin-bottom: 5px; 
     font-size: 25px;}
+h5 {
+    text-align:right; 
+    font-style: italic; 
+    margin-bottom: 5px; 
+    font-size: 25px;}
 
 p {
     text-align:left; 
