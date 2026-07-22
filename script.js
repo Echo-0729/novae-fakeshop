@@ -8,8 +8,7 @@ filter.addEventListener("change", () => {
   if (selectedValue === "low-high") {
     products
       .sort((a, b) => 
- {
-      return Number(a.dataset.price) - Number(b.dataset.price);
+ {return Number(a.dataset.price) - Number(b.dataset.price);
     });
     products.forEach(product => {
       product.style.display = "block";   
@@ -20,7 +19,9 @@ filter.addEventListener("change", () => {
   }
 
   products.forEach(product => {
-    if (category === selectedValue) {
+   const categories = product.dataset.category.split(" ");
+
+    if (categories.includes(selectedValue)) {
       product.style.display = "block";
     } else {
       product.style.display = "none";
