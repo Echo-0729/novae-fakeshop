@@ -140,20 +140,17 @@ color: black;
     text-align:left;
     font-size:20px;
 }
-.newsletter {
-    background-color: black;
-    color: white;
-    width: 500px;     
-    padding: 30px;
-    margin: 50px auto;
-    border-radius: 10px;
-    text-align: center;
+.newsletter{
+    width:90%;
+    max-width:500px;
+    padding:30px;
+    margin:50px auto;
+    background:black;
+    color:white;
+    border-radius:10px;
+    text-align:center;
 }
 
-.newsletter h2 {
-    margin-bottom: 20px;
-    font-size: 28px;
-}
 .newsletter h2 {
     margin-bottom: 20px;
     font-size: 28px;
@@ -176,8 +173,4 @@ color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.newsletter button:hover {
-    background-color: #black;
 }
