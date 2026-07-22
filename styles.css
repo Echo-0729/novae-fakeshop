@@ -20,19 +20,19 @@ h1 {
 
 h2 {
     text-align: center; 
-    font-style: italic; 
+    font-style: none; 
     margin-bottom: 9px; 
     font-size: 35px;}
 
 h3 {
     text-align: center; 
-    font-style: italic; 
+    font-style: none; 
     margin-bottom: 5px; 
     font-size: 25px;}
 
 p {
     text-align: center; 
-    font-style: italic; 
+    font-style: none; 
     margin-bottom: 5px; 
     font-size: 20px;}
 
@@ -59,7 +59,7 @@ body {
     color: #ffffff; 
     font-family: default;
     font-size: 20px; 
-    font-style: italic; 
+    font-style: none; 
     transition: 0.3s;}
 .nav a:hover { 
     color: #f2a33c; }
@@ -191,7 +191,8 @@ body {
 .card-img img:hover {
     box-shadow: 0 4px 16px rgba(0,0,0,0.44);}    
 
-
+.discount {
+    color: #cc0202;}
 
 .look-desc {
     text-align: right;
@@ -245,7 +246,7 @@ body {
 .h2AU {
     text-align: left; 
     margin-left: -190px;
-    font-style: italic; 
+    font-style: none; 
     margin-bottom: 9px; 
     font-size: 35px;}
 .pAU {
@@ -257,5 +258,5 @@ summary {
     cursor: pointer; font-weight: bold; padding: 5.5px 0;}
 
 #footer {
-    font-style: italic;
+    font-style: none;
     font-family: default;}
