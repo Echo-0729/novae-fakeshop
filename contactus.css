@@ -125,6 +125,31 @@ color: black;
     object-fit:cover;
     display:block;
 }
+    summary {
+    cursor: pointer; 
+    font-weight: bold; 
+    padding: 5.5px 0;}
+
+.subTxt,
+.subTxt2 {
+    display: inline-block;
+    font-size: 23px;
+    color: #ffffff;
+    margin: 0 12px 10px 140px;
+    font-family: default;
+    font-weight: none;}
+.subTxt2 {
+    text-decoration: none;
+    transition: 0.3s;
+    margin: 0;}
+/*.subBox {
+    margin-left: 260px;
+    height: 34px;
+    width: 300px;
+    border-radius: 10px;}*/
+.subTxt2:hover {
+    text-decoration: underline;
+    color: #fcc42b;}
     .footline {
     color: #ffffff;
     font-family: default;
