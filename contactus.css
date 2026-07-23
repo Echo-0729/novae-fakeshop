@@ -142,11 +142,11 @@ color: black;
     text-decoration: none;
     transition: 0.3s;
     margin: 0;}
-/*.subBox {
+.subBox {
     margin-left: 260px;
     height: 34px;
     width: 300px;
-    border-radius: 10px;}*/
+    border-radius: 10px;}
 .subTxt2:hover {
     text-decoration: underline;
     color: #fcc42b;}
