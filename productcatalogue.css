@@ -213,6 +213,7 @@ body {
 /* Product information */
 .card-info {
   background-color: transparent;
+  padding: 12px 4px 0;
 }
 
 .card-info h3 {
