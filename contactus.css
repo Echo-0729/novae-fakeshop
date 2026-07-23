@@ -125,3 +125,13 @@ color: black;
     object-fit:cover;
     display:block;
 }
+    .footline {
+    color: #ffffff;
+    font-family: default;
+    color: #ffffff;}
+
+#footer {
+    font-style: italic;
+    font-size: 18px;
+    font-family: default;
+    color: #ffffff;}
