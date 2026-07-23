@@ -1,5 +1,5 @@
 /* Author: ONG YITING, 261273Y */
-body  { font-family: default; max-width: 720px; margin: 24px auto; background-color: #ffffff;}
+body  { font-family: default; max-width: 700px; margin: 24px auto; background-color: #ffffff;}
 table { border-collapse: collapse; }
 th, td { border: 1px solid #888; padding: 8px; text-align: left; }
 caption { font-weight: bold; padding: 6px; }
@@ -74,7 +74,7 @@ body {
     color: #f2a33c; }
 
 
-/* All Hero Banners */
+/* All Hero Banners 
 .hero-all {
     position: relative;
     min-height: 500px;
@@ -108,7 +108,7 @@ body {
 }
 .hero-all:hover {
     text-decoration: underline 
-}
+}*/
 
 /* Home hero banner */
 .hero {
@@ -122,8 +122,8 @@ body {
 
 .hero-overlay {
     position: absolute;
-    left: 250px;
-    bottom: 20px;
+    left: 18%;
+    bottom: 5%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -156,10 +156,12 @@ body {
 /* Look of the Month */
 .h3Look {
     text-align: right; 
-    font-style: italic; 
-    margin-bottom: 9px; 
+    font-style: italic;
+    margin-top: 10%; 
+    margin-bottom: 10%; 
     font-size: 34px;
-    max-width: 400px;}
+    max-width: 100%;
+    flex-wrap: nowrap;}
 .txt {
     text-align: right;
     flex: 0 0 240px;
@@ -167,30 +169,33 @@ body {
     flex-direction: column;
     align-items: flex-end;
     padding: 0px;
-    margin-left: 100px;
-    margin-bottom: 130px;}
+    margin-left: 10%;
+    margin-bottom: 10%;
+    flex-wrap: nowrap;}
 
 .lookofmonth {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10%;
+    margin-right: 0%;
     justify-content: flex-start;
-    margin-top: 20px;
-    margin-left: -200px;}
+    margin-top: 5%;
+    margin-left: -18%;}
 
 .card-row {
     display: flex;
-    gap: 95px;
+    gap: 12%;
     justify-content: center;
     flex: 0 0 auto;}
 
 .card-img {
     flex: 0 0 auto;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     margin: 0;}
 .card-img img {
-    width: 110%;
-    max-width: 100%;
+    width: 100%;
+    max-width: 300px;
     height: auto;
     border-radius: 5px;
     display: block;
@@ -207,23 +212,29 @@ body {
 .look-desc {
     text-align: right;
     margin: 0;
-    padding: 0;}
+    padding: 0;
+    flex-wrap: nowrap;}
 
 
 /* Home Best Sellers */
+.card-row2 {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    flex: 0 0 auto;}
 .card {
     background: #2c2604;
     color: #ffffff;
-    padding: 16px;
-    margin: 10px 0;
+    padding: 1%;
+    margin: 1.5% 0;
     border-radius: 12px;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.22);
     transition: 0.3s;}
 .card-info {
     background: #2c2604;
     color: #ffffff;
-    padding: 12px;
-    margin-top: 10px;
+    padding: 2%;
+    margin-top: 2%;
     border-radius: 12px;
     transition: 0.3s;}
 
@@ -237,10 +248,11 @@ body {
     text-decoration: none;}
 
 .card img {
-    width: 370px;
+    width: 100%;
+    max-width: 370px;
     height: auto;
     border-radius: 5px;
-    margin-bottom: 10px;}
+    margin-bottom: 2%;}
 
 .card:hover,
 .card:hover .card-info {
@@ -264,21 +276,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 100px;
+    gap: 10%;
     flex-wrap: nowrap;
-    margin: 16px 0 24px;}
+    margin: 1% 0 1%;}
 
 .pAU {
     text-align: left;
     margin: 0;
     flex: 1 1 auto;
-    margin-left: -100px;}
+    margin-left: -16.5%;}
 
 .logo {
-    width: 290px;
+    width: 100%;
+    max-width: 290px;
     height: auto;
     margin: 0;
-    margin-right: -100px;
+    margin-right: -16.5%;
     display: block;
     flex-shrink: 0;}
 
@@ -298,11 +311,13 @@ body {
     justify-content: left;}
 .Question {
     font-size: 20px;
-    margin-left: 215px;}
+    margin-left: 15.5%;}
 .Answer {
     text-align: left;
     margin: 12px auto;
+    width: 100%;
     max-width: 924px;}
+
 
 /* footer */
 .section2 {
@@ -311,6 +326,7 @@ body {
     border-radius: 0px;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);}
+
 summary {
     cursor: pointer; 
     font-weight: bold; 
