@@ -140,7 +140,7 @@ color: black;
     text-align:left;
     font-size:20px;
 }
-.newsletter{
+.box{
     width:90%;
     max-width:500px;
     padding:30px;
@@ -151,12 +151,12 @@ color: black;
     text-align:center;
 }
 
-.newsletter h2 {
+.box h2 {
     margin-bottom: 20px;
     font-size: 28px;
 }
 
-.newsletter input {
+.box input {
     width: 90%;
     padding: 15px;
     font-size: 18px;
@@ -164,7 +164,7 @@ color: black;
     border-radius: 5px;
     margin-bottom: 15px;
 }
-.newsletter button {
+.box button {
     width: 90%;
     padding: 15px;
     font-size: 18px;
