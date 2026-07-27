@@ -259,11 +259,114 @@ summary {
     font-size: 18px;
     font-family: default;
     color: #ffffff;}
-@media (max-width: 600px) {
-nav a { display: block; margin: 6px 0; }
-    .row  { flex-direction: column; }
-    .card { width: 100%; }
+/* Tablet screens */
+@media(max-width: 650px) {
+
+    body {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 34px;
+        padding: 0 15px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    p,
+    p1 {
+        font-size: 17px;
+    }
+
+    .nav ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 18px;
+        margin-left: 0;
+    }
+
+    .nav a {
+        font-size: 17px;
+    }
+
+    /* Smaller hero banner */
+    .hero {
+        min-height: 350px;
+        margin-left: 0;
+        margin-right: 0;
+        background-position: center;
+    }
+
+    .hero-overlay {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        width: calc(100% - 40px);
+        max-width: 280px;
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .hero-overlay h2 {
+        font-size: 30px;
+    }
+
+    .hero-overlay p {
+        font-size: 16px;
+    }
+
+    /* Change product grid to 1 column */
+    .card-row {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        padding: 0 20px;
+    }
+
+    .card-all {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .card-all img {
+        width: 100%;
+        height: 400px;
+    }
+
+    .card-all-info h3 {
+        font-size: 20px;
+    }
+
+    .card-all-info p {
+        font-size: 17px;
+    }
+
+    /* Footer */
+    .section2 {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .subTxt,
+    .subTxt2 {
+        display: block;
+        margin: 10px 0;
+        font-size: 19px;
+    }
+
+    #footer {
+        font-size: 15px;
+        text-align: center;
+    }
 }
-
-
-
