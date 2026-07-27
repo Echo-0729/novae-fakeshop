@@ -259,7 +259,11 @@ summary {
     font-size: 18px;
     font-family: default;
     color: #ffffff;}
-
+@media (max-width: 600px) {
+nav a { display: block; margin: 6px 0; }
+    .row  { flex-direction: column; }
+    .card { width: 100%; }
+}
 
 
 
