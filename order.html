@@ -4,17 +4,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-    <!-- TODO A: change the title to YOUR team's store name + " — Home" -->
-<title>N✪VAE — Home</title>
-
-    <!-- A tiny bit of styling so the table is readable today.
-         You'll move ALL styling into an external styles.css in Week 13. -->
-<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>N✪VAE — Order</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <!-- STEP 1 — Store name. Put your store's name as the main heading. -->
+    
 <h1>
     N✪VAE
 </h1>
@@ -29,9 +25,181 @@
     </ul>
 </nav>
 
-<!-- Hero Banner -->
-<header class="hero-all">
-    <div class="hero-all-overlay">
-        <p>NEW ARRIVALS</p>
+<div class="cata-grid">
+    <div class="product-img">
+        <form action="thanksOrder.html" method="post">
+<!-- Product Choice -->
+        <select name="product" id="product">
+            <option value="Y2K-Boots">
+                Y2K Platform Cover Boots - $25.50
+            </option>
+            <option value="W77-Jersey">
+                Weird 77 Black & White Jersey - $30.99
+            </option>
+            <option value="NOVAE-Necklace">
+                NOVAE Silver Pendant Necklace - $22.21
+            </option>
+            <option value="CyberG-Set">
+                Cyber Grunge Set - $249.20
+            </option>
+            <option value="BlockS-Set">
+                Bloke Skater Set - $170.99
+            </option>
+            <option value="ModernN-Set">
+                Modern Navy Set - $90.00
+            </option>
+            <option value="HighD-Set">
+                High Drip Set - $150.99
+            </option>
+
+            <!-- Others -->
+            <option value="FifaGF-Jersey">
+                Fifa Graphic Football Jersey - $35.00
+            </option>
+            <option value="JohnnyCM-BoxyGraphicTee">
+                Johnny Cash Music Boxy Graphic Tee - $39.99
+            </option>
+            <option value="CableK-Cardigan">
+                Cable Knit Cardigan - $32.25
+            </option>
+
+            <!-- Tops -->
+            <option value="QuinbieLC-ShortSTop">
+                Quinbie Lace Short Sleeve Top Cream - $55.00
+            </option>
+            <option value="JetStyleB/W-LongSRaglanTop">
+                Jet Style Long Sleeve Graphic Raglan Top Blue / White - $35.00
+            </option>
+            <option value="EleanorreBGreyStripe-VNTop">
+                Eleanorre Batwing V Neck Top Grey Stripe - $45.90
+            </option>
+            <option value="CurvedHW-Top">
+                Curved Hem Top White - $24.50
+            </option>
+            <option value="SleeveL-Top">
+                Sleeve Top Lemon - $15.90
+            </option>
+            <option value="Navy/WhitePD-Tank">
+                Tank Navy With White Polka Dots - $20.00
+            </option>
+            
+            <!-- Jewellery -->
+            <option value="Flower-Ring">
+                Flower Ring - $3.00
+            </option>
+            <option value="PearlS-Earrings">
+                Pearl Stud Earrings - $17.00
+            </option>
+            <option value="Heart-Bracelet">
+                Heart Bracelet - $13.00
+            </option>
+            <option value="SquareL-Bracelet">
+                Square Link Bracelet - $11.00
+            </option>
+            <option value="ChainL-Bracelet">
+                Chain Link Bracelet - $9.50
+            </option>
+            <option value="Chocker">
+                Chocker Necklace - $6.00
+            </option>
+            <option value="BeadL-Necklace">
+                Bead Link Necklace - $10.00
+            </option>
+            <option value="GoldL-Necklace">
+                Golden Locket Necklace - $9.00
+            </option>            
+        </select>
+
+<!-- Price & Descript -->
+
+
+<!-- Colour Choice -->
+        <p class="orderTxt">Colour</p>
+        <label>
+            <input type="radio" name="colour" value="Default" checked>Default
+        </label>
+        <label>
+            <input type="radio" name="colour" value="White">White
+        </label>
+        <label>
+            <input type="radio" name="colour" value="Black">Black
+        </label>
+        <label>
+            <input type="radio" name="colour" value="Khaki">Khaki
+        </label>
+        <label>
+            <input type="radio" name="colour" value="Blue">Blue
+        </label>
+<br><br><!-- Size Choice -->    
+        <p class="orderTxt">Size</p>
+        <label>
+            <input type="radio" name="size" value="XXS">XXS
+        </label>
+        <label>
+            <input type="radio" name="size" value="XS">XS
+        </label>
+        <label>
+            <input type="radio" name="size" value="S">S
+        </label>
+        <label>
+            <input type="radio" name="size" value="M">M
+        </label>
+        <label>
+            <input type="radio" name="size" value="L">L
+        </label>
+        <label>
+            <input type="radio" name="size" value="XL">XL
+        </label>
+        <label>
+            <input type="radio" name="size" value="2XL">2XL
+        </label>
+        <label>
+            <input type="radio" name="size" value="3XL">3XL
+        </label>
+        <label>
+            <input type="radio" name="size" value="4XL">4XL
+        </label>
+        <label>
+            <input type="radio" name="size" value="5XL">5XL
+        </label>
+<br><br><!-- Amount Choice -->
+        <label>
+            Quantity
+            <input type="number" name="amount" min="1" max="10">
+        </label>
+        
+        
+<!-- Order & Cancel Button-->
+            <button type="reset" class="Obtn" value="Cancel">CANCEL</button>
+            <button type="submit" class="Obtn" value="Order">✪RDER</button>
+        </form>
     </div>
-</header>
+</div>
+
+
+<!-- Fake reviews & Ratings-->
+<table>
+    <tr>
+        <td>User</td>
+    </tr>
+</table>
+
+
+<!-- STEP 7 — Footer line. -->
+<section class="section2">
+<div>    
+<br>
+    <p class="subTxt">Have more questions? Want more details?</p>
+    <a href="contactUsPage.html"><h3 class="subTxt2">CONTACT US!</h3></a>
+<br>
+
+<br>
+    <p class="subTxt">We love and appreciate all comments and advice.</p>
+    <a href="feedback.html"><h3 class="subTxt2">TELL US WHAT YOU WANT TO SEE!</h3></a>
+<br>
+
+    <br><hr class="footline">
+<p id="footer">© 2026 N✪VAE</p>
+</div>
+</section>
+</body>
