@@ -148,7 +148,13 @@ body {
 .card:hover { box-shadow: 4px 4px 16px #00000033; }
 .row {
     display: flex; }
+.card-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 70px;
+  row-gap: 45px;
 }
+
 .card-all {
   min-width: 0;
   background-color: transparent;
