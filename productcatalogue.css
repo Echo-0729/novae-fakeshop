@@ -140,7 +140,7 @@ body {
 
 /* Product grid */
 .card       { background: #2c2604; padding: 13px; margin: 10px 0; border-radius: 12px; box-shadow: 4px 4px 10px #00000022; transition: 0.3s; }
-.cardd h3{  margin: 0;
+.card h3{  margin: 0;
     font-size: 27px;
     font-weight: bold;
     color: white;
@@ -149,6 +149,65 @@ body {
 .row {
     display: flex; }
 }
+.card-all {
+  min-width: 0;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+
+}
+
+/* Product image */
+.card-all img {
+  display: block;
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.22);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.discount {
+    color: #cc0202;
+    font-style: italic;}
+
+.card-all img:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+}
+
+/* Product information */
+.card-all-info {
+   background-color: transparent;
+  color: #171717;
+  padding: 12px 4px 0;
+
+}
+
+.card-all-info h3 {
+  margin: 0 0 5px;
+  color: #171717;
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.card-all-info p {
+  margin: 0;
+  color: #171717;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+}
+
 
 
 /*footer*/
