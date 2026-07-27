@@ -138,17 +138,6 @@ body {
     color: black;
 }
 
-/* Filter and product layout */
-.product-section {
-  display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: 42px;
-
-  width: min(1450px, 92%);
-  margin: 50px auto;
-  align-items: start;
-}
-
 /* Product grid */
 .card       { background: white; padding: 16px; margin: 10px 0; border-radius: 12px; box-shadow: 4px 4px 10px #00000022; transition: 0.3s; }
 .card:hover { box-shadow: 4px 4px 16px #00000033; }
