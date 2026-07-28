@@ -193,7 +193,6 @@ body {
      border-radius: 16px;
     box-shadow: 4px 4px 10px #00000022;
 }
-.card:hover { box-shadow: 4px 4px 16px #00000033; }
 .row {
     display: flex; }
 .card-row {
