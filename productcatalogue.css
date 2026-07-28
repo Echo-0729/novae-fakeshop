@@ -140,18 +140,26 @@ body {
 }
 
 /* Product grid */
-.card ul {
-    display: flex;
-   list-style: none;  
-   background: #2c2604;
+.card {
+    background: #2c2604;
     padding: 13px;
-    margin:10px 0;
+    margin: 10px 0 0;
     border-radius: 12px;
     box-shadow: 4px 4px 10px #00000022;
-    transition: 0.3s; 
-     gap: 95px;
+    transition: 0.3s;
+}
+
+.card ul {
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
+
+    list-style: none;
+    padding: 15px 0;
+    margin: 0;
+
+    width: 100%;
+    gap: 0;
 }
 .card a { 
     text-decoration: none; 
