@@ -140,6 +140,18 @@ body {
 }
 
 /* Product grid */
+.card ul { 
+background: #2c2604; padding: 13px; margin: 10px 0; border-radius: 12px; box-shadow: 4px 4px 10px #00000022; transition: 0.3s;}
+.card a { 
+    text-decoration: none; 
+    color: #ffffff; 
+    font-family: default;
+    font-size: 23px; 
+    font-style: none; 
+    transition: 0.3s;}
+.card a:hover { 
+    box-shadow: 4px 4px 16px #00000033; }
+
 .card       { background: #2c2604; padding: 13px; margin: 10px 0; border-radius: 12px; box-shadow: 4px 4px 10px #00000022; transition: 0.3s; }
 .card h3{  margin: 0;
     font-size: 27px;
