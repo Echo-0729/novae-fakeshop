@@ -145,8 +145,6 @@ body {
     padding: 13px;
     margin: 10px 0 0;
     border-radius: 12px;
-    box-shadow: 4px 4px 10px #00000022;
-    transition: 0.3s;
 }
 
 .card ul {
