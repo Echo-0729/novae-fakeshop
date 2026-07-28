@@ -141,6 +141,7 @@ body {
 
 /* Product grid */
 .card ul {
+    display: flex;
    list-style-type: none;  
    background: #2c2604;
     padding: 13px;
