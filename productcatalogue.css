@@ -141,7 +141,8 @@ body {
 
 /* Product grid */
 .card ul { 
-background: #2c2604; padding: 13px; margin: 10px 0; border-radius: 12px; box-shadow: 4px 4px 10px #00000022; transition: 0.3s;}
+background: #2c2604; padding: 13px; margin: 0; margin-bottom: 0px;
+    margin-left: calc(-50vw + 50%); border-radius: 12px; box-shadow: 4px 4px 10px #00000022; transition: 0.3s;}
 .card a { 
     text-decoration: none; 
     color: #ffffff; 
@@ -150,6 +151,7 @@ background: #2c2604; padding: 13px; margin: 10px 0; border-radius: 12px; box-sha
     font-style: none; 
     transition: 0.3s;}
 .card a:hover { 
+    color: #f2a33c; 
     box-shadow: 4px 4px 16px #00000033; }
 
 .card       { background: #2c2604; padding: 13px; margin: 10px 0; border-radius: 12px; box-shadow: 4px 4px 10px #00000022; transition: 0.3s; }
