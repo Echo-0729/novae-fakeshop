@@ -182,7 +182,7 @@ body {
 .row {
     display: flex; }
 .card-row {
-  width: 80%;
+  width: 85%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
