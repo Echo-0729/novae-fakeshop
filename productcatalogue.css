@@ -149,7 +149,7 @@ body {
     border-radius: 12px;
     box-shadow: 4px 4px 10px #00000022;
     transition: 0.3s; 
-     gap: 100px;
+     gap: 95px;
     justify-content: center;
 }
 .card a { 
