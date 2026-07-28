@@ -6,9 +6,9 @@ caption { font-weight: bold; padding: 6px; }
 
 .section {
     background-color: #ffffff;
-    padding: 40px;
-    border-radius: 12px;
-    margin: 24px 0;
+    padding: 20px;
+    border-radius: 0px;
+    margin: 24px ;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);}
 
