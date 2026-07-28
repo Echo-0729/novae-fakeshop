@@ -6,7 +6,7 @@ caption { font-weight: bold; padding: 6px; }
 
 .section {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 40px;
     border-radius: 12px;
     margin: 24px 0;
     margin-left: calc(-50vw + 50%);
