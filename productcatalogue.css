@@ -177,7 +177,13 @@ body {
 .card a:hover { 
     color: #f2a33c; 
     }
-
+.card-one {
+    background: white;
+    width: 20%; 
+    padding: 13px;
+     margin: 5px auto;
+     border-radius: 16px;
+}
 .card:hover { box-shadow: 4px 4px 16px #00000033; }
 .row {
     display: flex; }
