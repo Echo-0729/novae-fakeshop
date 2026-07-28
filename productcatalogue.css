@@ -144,7 +144,7 @@ body {
     display: flex;
    list-style: none;  
    background: #2c2604;
-    padding: 0 13px 13px;
+    padding: 13px;
     margin: 0;
     border-radius: 12px;
     box-shadow: 4px 4px 10px #00000022;
@@ -157,7 +157,7 @@ body {
     text-decoration: none; 
     color: #ffffff; 
     font-family: default;
-    font-size: 22px; 
+    font-size: 24px; 
     font-style: none; 
     transition: 0.3s;}
 .card a:hover { 
