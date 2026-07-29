@@ -196,7 +196,7 @@ body {
 .row {
     display: flex; }
 .card-row {
-  width: 90%;
+  width: 93%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
