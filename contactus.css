@@ -136,6 +136,15 @@ color: black;
     color:white;
     border-radius:10px;
     text-align:center;}
+.card button {
+    width: 90%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: beige;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;}
 
    .section2 {
     background-color: #2c2604;
