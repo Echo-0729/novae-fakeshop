@@ -126,6 +126,8 @@ color: black;
     object-fit:cover;
     display:block;
 }
+.card       { background: white; padding: 16px; margin: 10px 0; border-radius: 12px; box-shadow: 4px 4px 10px #00000022; transition: 0.3s; }
+
    .section2 {
     background-color: #2c2604;
     padding: 20px;
