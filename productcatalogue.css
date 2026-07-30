@@ -307,17 +307,11 @@ summary {
     font-family: default;
     color: #ffffff;}
 @media (max-width: 600px) {
-   .nav ul { width: 100%;
-            padding: 12px;
-            gap:8px 18px;
-            justify-content: center;
-           }
     .nav a { 
-        font-size: 15px;
+        display: block; margin: 6px 0;
     }
     .card {
-        width: 94%;
-        padding: 10px;
+       display: block; margin: 6px 0;
     }
     .card ul {
         flex-direction: column;
@@ -327,10 +321,9 @@ summary {
         card a {
             font-size: 18px;
         }
-    .card row { 
-        width: 88%;
-        grid-templete-columns: 1fr;
-        column-gap: 0;
-        row-gap: 35px;
+    .card-row { 
+        flex-direction: column; 
     }
+    .card-all { width: 100%; 
+              }
 }
