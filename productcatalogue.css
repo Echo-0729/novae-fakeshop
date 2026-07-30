@@ -328,6 +328,6 @@ summary {
     .card-row { 
         flex-direction: column; 
     }
-    .card-all { width: 100%; 
+    .card-all img { width: 100%; 
               }
 }
