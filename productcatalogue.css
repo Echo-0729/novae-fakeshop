@@ -305,10 +305,10 @@ summary {
     color: #ffffff;}
 @media (max-width: 600px) {
     .nav a { 
-        display: block; margin: 6px 0;
+        display: block; margin:auto;
     }
     .card {
-       display: block; margin: 6px 0;
+       display: block; margin: auto;
     }
     .card ul {
         flex-direction: column;
