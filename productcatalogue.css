@@ -307,6 +307,12 @@ summary {
     font-family: default;
     color: #ffffff;}
 @media (max-width: 600px) {
-   nav a  { display: block; margin: 6px 0; }
-   .card-row  { width: 100%; }
-}
+   body {
+       max-width: 100%; 
+    margin:0;
+       padding:0;}
+    h1 {
+        font-size: 32px;}
+    h2 { 
+        font-size: 32px;}
+    
