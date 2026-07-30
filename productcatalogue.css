@@ -279,6 +279,17 @@ summary {
     padding: 5.5px 0;}
 
 .subTxt,
+.subTxt3 {
+    display: inline-block;
+    font-size: 19px;
+    color: black;
+    margin: 0 12px 10px 140px;
+    font-family: default;
+    font-weight: none;}
+.subTxt3 {
+    text-decoration: none;
+    transition: 0.3s;
+    margin: 0;}
 .subTxt2 {
     display: inline-block;
     font-size: 23px;
