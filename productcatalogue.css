@@ -318,7 +318,7 @@ summary {
         gap: 12px;
         padding: 10px 0;
     }
-        card a {
+    .card a {
             font-size: 18px;
         }
     .card-row { 
