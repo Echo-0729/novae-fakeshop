@@ -45,6 +45,14 @@ h5 {
     margin-top: 0;
     margin-bottom: 5px;
 }
+h6 {
+    font-family: Arial;
+    text-align: center;
+    font-size: 20px;
+
+    margin-top: 0;
+    margin-bottom: 5px;
+}
 p {
     text-align: center; 
     font-style: none; 
