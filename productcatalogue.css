@@ -195,7 +195,7 @@ body {
   width: 93%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, 150px);
   column-gap: 70px;
   row-gap: 45px;
 }
