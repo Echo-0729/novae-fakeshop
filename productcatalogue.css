@@ -100,7 +100,8 @@ body {
     left: 50px;
     top: 50%;
     transform: translateY(-50%);
-
+    gap: 10px;
+    
     width: 230px;
 
     padding: 25px;
