@@ -308,5 +308,5 @@ summary {
     color: #ffffff;}
 @media (max-width: 600px) {
    nav a  { display: block; margin: 6px 0; }
-   .row   { flex-direction: column; }
-   .card  { width: 100%; }}
+   .card-row  { width: 100%; }
+}
