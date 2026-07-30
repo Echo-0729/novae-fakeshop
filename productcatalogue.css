@@ -305,32 +305,3 @@ summary {
     font-size: 18px;
     font-family: default;
     color: #ffffff;}
-@media (max-width: 600px) {
-    
-    }
-    .nav ul {
-       display: block; margin: auto;
-        flex-direction: column;
-        gap: 12px;
-        padding: 10px 0;
-    }
-    .nav a {
-            font-size: 20px;
-        }
-    .card {
-       display: block; margin: auto;
-    }
-    .card ul {
-        flex-direction: column;
-        gap: 12px;
-        padding: 10px 0;
-    }
-    .card a {
-            font-size: 18px;
-        }
-    .card-row { 
-        flex-direction: column; 
-    }
-    .card-all img { width: 100%; 
-              }
-}
