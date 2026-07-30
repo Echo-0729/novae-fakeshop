@@ -4,13 +4,6 @@ table { border-collapse: collapse; }
 th, td { border: 1px solid #888; padding: 8px; text-align: left; }
 caption { font-weight: bold; padding: 6px; }
 
-.section {
-    background-color: #ffffff;
-    padding: 0 20px 20px;
-    border-radius: 0px;
-    margin: 0px ;
-    margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);}
 
 h1 {
     text-align: center; 
@@ -100,6 +93,7 @@ body {
     left: 50px;
     top: 50%;
     transform: translateY(-50%);
+    display: flex;
     flex-direction:coloumn;
     gap:10px;
     width: 230px;
@@ -188,8 +182,6 @@ body {
      border-radius: 16px;
     box-shadow: 4px 4px 10px #00000022;
 }
-.row {
-    display: flex; }
 .card-row {
   width: 93%;
   margin: auto;
