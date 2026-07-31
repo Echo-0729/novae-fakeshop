@@ -31,16 +31,14 @@ h3 {
     margin-bottom: 5px; 
     font-size: 25px;}
 h4 {
-    text-align:left; 
+    text-align:center; 
     font-style: none; 
     margin-bottom: 5px; 
-    font-size: 25px;}
+    font-size: 25px;
+    color:black;}
 
-h5 {
-    text-align:left; 
-    font-style: none; 
-    margin-bottom: 5px; 
-    font-size: 25px;}
+
+
 
 
 
@@ -50,12 +48,7 @@ p {
     font-style: none; 
     margin-bottom: 5px; 
     font-size: 25px;}
-p1 {
-    text-align:center; 
-    font-style: none; 
-    margin-bottom: 5px; 
-    font-size: 25px;
-    color:black;}
+
 
 
 body {
