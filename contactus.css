@@ -135,9 +135,9 @@ color: black;
     display:block;
     
 }
-.card       { background: white;
+.card       { background: black;
              padding: 16px; 
-             margin: auto;
+             margin:auto;
              border-radius: 12px;
              box-shadow: 4px 4px 10px #00000022;
              transition: 0.3s;  
