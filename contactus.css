@@ -133,7 +133,7 @@ color: black;
     height:350px;
     object-fit:cover;
     display:block;
-    
+    margin:auto;
 }
 .card       { background: black;
              padding: 16px; 
