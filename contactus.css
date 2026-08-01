@@ -201,3 +201,10 @@ summary {
     font-size: 18px;
     font-family: default;
     color: #ffffff;}
+.card-one{ background: white;
+             padding: 16px; 
+             margin:auto;
+             border-radius: 12px;
+             box-shadow: 4px 4px 10px #00000022;
+             transition: 0.3s;  
+             width:30%;}
