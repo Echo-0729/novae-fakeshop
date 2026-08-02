@@ -126,17 +126,17 @@ body {
     flex-direction: column;
     align-items: flex-end;
     padding: 0px;
-    margin-left: 3%;
+    margin-left: 0%;
     margin-bottom: 8%;}
 
 .lookofmonth {
     display: flex;
     align-items: center;
     gap: 10%;
-    margin-right: 0%;
-    justify-content: flex-start;
+    justify-content: center;
     margin-top: 5%;
-    margin-left: 20%;}
+    margin-left: 5%;
+    margin-right: 0%;}
 
 .card-row {
     display: flex;
@@ -216,7 +216,6 @@ body {
 /* About Us*/
 .h2AU {
     text-align: center; 
-    margin-left: 0;
     font-style: none; 
     margin-bottom: 0.64vw;
     font-size: 2.25vw;}
@@ -225,22 +224,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 0%;
+    gap: -50%;
     flex-wrap: nowrap;
     margin: 0% 0 0%;}
 
 .pAU {
     text-align: left;
-    margin: 0;
     flex: 1 1 auto;
-    margin-left: 0%;}
+    margin-left: 21.5%;}
 
 .logo {
     width: 100%;
     max-width: 290px;
     height: auto;
     margin: 0;
-    margin-right: 0%;
+    margin-right: 21.5%;
     display: block;
     flex-shrink: 0;}
 
@@ -253,7 +251,8 @@ body {
 
 .disclaimer {
     font-style: italic;
-    color: #5f5f5f;}
+    color: #5f5f5f;
+    font-size: 0.96vw;}
 /* FAQ*/
 .faq {
     justify-content: left;}
@@ -272,7 +271,8 @@ body {
     padding: 1.28vw;
     border-radius: 0px;
     margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);}
+    margin-right: calc(-50vw + 50%);
+    margin-bottom: -5vw;}
 
 summary {
     cursor: pointer; 
@@ -318,7 +318,100 @@ summary {
 /* ================ THANKS 4 ORDERING PAGE ================ 
 */
 
-@media (max-width: 600px) {
-   nav a  { display: block; margin: 0.32vw 0; }
-   .row   { flex-direction: column; }
-   .card  { width: 100%; }}
+
+/* MEDIA */
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 4.16vw;
+        margin: 1vw;}
+    h2 {
+        font-size: 3.52vw;
+        margin: 1.28vw;}
+    h3 {
+        font-size: 2.88vw;
+        margin: 1.28vw;}
+    p {
+        font-size: 2.25vw;
+        margin: 1.28vw;}
+
+    .section {
+        padding-top: 5vw;
+        padding-bottom: 5vw;}
+
+    .nav a {
+    font-size: 2.25vw;
+    display: block; 
+    margin: 0.32vw 0; }
+   .row   { 
+    flex-direction: column; }
+
+    .hero {
+        min-height: 42vw;
+        margin-bottom: 3.2vw;}
+    .hero-overlay {
+        left: 10%;
+        width: 26vw;
+        padding: 1.6vw;
+        padding-right: 5vw;}
+    .hero-overlay p {
+        font-size: 2.1vw;}
+    .hero-btn {
+        padding: 0.96vw 1.28vw;
+        border-radius: 0.4vw;}
+
+    .lookofmonth {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0%;}
+    .card-img {
+        width: 100%;
+        max-width: 235px;
+        margin-bottom: 1.28vw;}
+   .card-row {
+        display: flex;
+        gap: 10vw;
+        justify-content: center;}
+    .txt {
+        text-align: center;
+        align-items: center;}
+    .h3Look {
+        font-size: 3.2vw;
+        margin: 0.768vw;
+        margin-bottom: 2.3vw;
+        text-align: center;}
+    .look-desc {
+        text-align: center;
+        margin-left: 18vw;
+        margin-right: 18vw;
+        font-size: 2.88vw;
+        margin-bottom: -2vw;}
+    
+    .card-row2 {
+        margin: 1.28vw;}
+
+    .pAU {
+        margin-left: 8.5vw;
+        font-size: 2.56vw;}
+    .logo {
+        margin-right: 8.5vw;
+        margin-bottom: 8vw;
+        width: 100%;
+        max-width: 30vw;}
+    .disclaimer {
+        font-size: 1.92vw;}
+
+    .Question {
+        font-size: 2.56vw;
+        margin-left: 8.5vw;}
+    .Answer {
+        font-size: 2.56vw;
+        margin-left: 12.5vw;
+        margin-right: 9.2vw;
+        max-width: 70vw;
+        box-sizing: border-box;}
+
+    .subTxt {
+        font-size: 2.25vw;}
+    .subTxt2 {
+        font-size: 2.25vw;}}
