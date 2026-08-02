@@ -4,8 +4,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>N✪VAE — Order</title>
+    <meta charset="UTF-8" content="width=device-width, initial-scale=1">
+    <title>N✪VAE — Order Template</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -24,116 +24,31 @@
         <li><a href="feedback.html">FEEDBACK</a></li>
     </ul>
 </nav>
+<!-- Product Image -->
+<div>
+    <img src="PlaceHolder2x3.png" alt="Product Image" class="product-img">
+</div>
 
-<div class="cata-grid">
-    <div class="product-img">
-        <form action="thanksOrder.html" method="post">
-<!-- Product Choice -->
-        <select name="product" id="product">
-            <option value="Y2K-Boots">
-                Y2K Platform Cover Boots - $25.50
-            </option>
-            <option value="W77-Jersey">
-                Weird 77 Black & White Jersey - $30.99
-            </option>
-            <option value="NOVAE-Necklace">
-                NOVAE Silver Pendant Necklace - $22.21
-            </option>
-            <option value="CyberG-Set">
-                Cyber Grunge Set - $249.20
-            </option>
-            <option value="BlockS-Set">
-                Bloke Skater Set - $170.99
-            </option>
-            <option value="ModernN-Set">
-                Modern Navy Set - $90.00
-            </option>
-            <option value="HighD-Set">
-                High Drip Set - $150.99
-            </option>
-
-            <!-- Others -->
-            <option value="FifaGF-Jersey">
-                Fifa Graphic Football Jersey - $35.00
-            </option>
-            <option value="JohnnyCM-BoxyGraphicTee">
-                Johnny Cash Music Boxy Graphic Tee - $39.99
-            </option>
-            <option value="CableK-Cardigan">
-                Cable Knit Cardigan - $32.25
-            </option>
-
-            <!-- Tops -->
-            <option value="QuinbieLC-ShortSTop">
-                Quinbie Lace Short Sleeve Top Cream - $55.00
-            </option>
-            <option value="JetStyleB/W-LongSRaglanTop">
-                Jet Style Long Sleeve Graphic Raglan Top Blue / White - $35.00
-            </option>
-            <option value="EleanorreBGreyStripe-VNTop">
-                Eleanorre Batwing V Neck Top Grey Stripe - $45.90
-            </option>
-            <option value="CurvedHW-Top">
-                Curved Hem Top White - $24.50
-            </option>
-            <option value="SleeveL-Top">
-                Sleeve Top Lemon - $15.90
-            </option>
-            <option value="Navy/WhitePD-Tank">
-                Tank Navy With White Polka Dots - $20.00
-            </option>
-            
-            <!-- Jewellery -->
-            <option value="Flower-Ring">
-                Flower Ring - $3.00
-            </option>
-            <option value="PearlS-Earrings">
-                Pearl Stud Earrings - $17.00
-            </option>
-            <option value="Heart-Bracelet">
-                Heart Bracelet - $13.00
-            </option>
-            <option value="SquareL-Bracelet">
-                Square Link Bracelet - $11.00
-            </option>
-            <option value="ChainL-Bracelet">
-                Chain Link Bracelet - $9.50
-            </option>
-            <option value="Chocker">
-                Chocker Necklace - $6.00
-            </option>
-            <option value="BeadL-Necklace">
-                Bead Link Necklace - $10.00
-            </option>
-            <option value="GoldL-Necklace">
-                Golden Locket Necklace - $9.00
-            </option>            
-        </select>
-
-<!-- Price & Descript -->
+<!-- Product Details -->
+<div>
+    <h2>Product Name</h2>
+    <h3>$XX.XX SGD</h3>
+</div>
 
 
-<!-- Colour Choice -->
-        <p class="orderTxt">Colour</p>
+<!-- Product Order Form -->
+    <form action="thanksOrder.html" method="post">
+
+        <!-- Colour Choice -->
+        <h4>COLOUR</h4>
         <label>
-            <input type="radio" name="colour" value="Default" checked>Default
+            <input type="radio" name="colour" value="Default" checked required>Default
         </label>
-        <label>
-            <input type="radio" name="colour" value="White">White
-        </label>
-        <label>
-            <input type="radio" name="colour" value="Black">Black
-        </label>
-        <label>
-            <input type="radio" name="colour" value="Khaki">Khaki
-        </label>
-        <label>
-            <input type="radio" name="colour" value="Blue">Blue
-        </label>
+
 <br><br><!-- Size Choice -->    
-        <p class="orderTxt">Size</p>
+        <h4>SIZE</h4>
         <label>
-            <input type="radio" name="size" value="XXS">XXS
+            <input type="radio" name="size" value="XXS" required>XXS
         </label>
         <label>
             <input type="radio" name="size" value="XS">XS
@@ -162,26 +77,59 @@
         <label>
             <input type="radio" name="size" value="5XL">5XL
         </label>
-<br><br><!-- Amount Choice -->
+
+<br><br><!-- Product Description -->
+        <h4>DESCRIPTION</h4>
+        <p class="product-descript">Short description of the product<br>
+        <br>Credit for Illustration/Design/etc: @Name</p>
+
+<br><br><!-- Quantity Choice -->
+        <h4>QUANTITY</h4>
         <label>
-            Quantity
-            <input type="number" name="amount" min="1" max="10">
+            <input type="number" name="amount" min="1" max="10" required value="1">
         </label>
         
-        
-<!-- Order & Cancel Button-->
+<br><br><!-- Order & Cancel Button-->
             <button type="reset" class="Obtn" value="Cancel">CANCEL</button>
             <button type="submit" class="Obtn" value="Order">✪RDER</button>
         </form>
     </div>
 </div>
 
-
-<!-- Fake reviews & Ratings-->
+<!-- Fake reviews & Ratings--><br><br>
 <table>
     <tr>
-        <td>User</td>
+        <th>USER</th>
+        <th>COMMENT</th>
+        <th>RATING</th>
     </tr>
+    <tr>
+        <td>John Doe</td>
+        <td>"Comment/Review"</td>
+        <td>⭐☆☆☆☆<br>DUST</td>
+    </tr>
+    <tr>
+        <td>Jane Doe</td>
+        <td>A Black Hole consumed this comment.</td>
+        <td>⭐⭐☆☆☆<br>DWARF</td>
+    </tr>
+    <tr>
+        <td>J. Doe</td>
+        <td>No signal from this system.</td>
+        <td>⭐⭐⭐☆☆<br>STELLAR</td>
+    </tr>
+    <tr>
+        <td>User123</td>
+        <td>Fell into the Zone of Avoidance. No comment found.</td>
+        <td>⭐⭐⭐⭐☆<br>NOVA</td>
+    </tr>
+    <tr>
+        <td>Guest</td>
+        <td>This star has left no trace in the cosmos.</td>
+        <td>⭐⭐⭐⭐⭐<br>SUPERNOVA</td>
+    </tr>
+
+<!-- 1=DUST, 2=DWARF, 3=STELLAR, 4=NOVA, 5=SUPERNOVA -->
 </table>
 
 
