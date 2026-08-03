@@ -398,6 +398,11 @@ summary {
         font-size: 2.88vw;
         margin-bottom: -2vw;}
     
+    .card {
+        width: 100%;
+        max-width: 500px;
+        aspect-ratio: 1/1;
+        object-fit: cover;}
     .card-row2 {
         margin: 1.28vw;}
 
