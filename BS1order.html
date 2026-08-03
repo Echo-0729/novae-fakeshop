@@ -1,4 +1,4 @@
-<!-- Author: ONG YITING, 261273Y -->
+<!-- Author: ONG YITING, 261273Y --> <!-- Addtional support with code from the internet, AI, and class notes -->
 <!-- ^ Requirement (h): every HTML file in your project starts with this line. -->
 
 <!DOCTYPE html>
@@ -25,16 +25,17 @@
     </ul>
 </nav>
 
-<!-- Product Image -->
-<div>
-    <img src="BestSeller1.jpg" alt="Y2KPlatformCoverBoots" class="product-img">
-</div>
 
+<!-- Product Image -->
+<div class="container">
+    <div>
+        <img src="BestSeller1.jpg" alt="Y2KPlatformCoverBoots" class="product-img">
+    </div>
 
 <!-- Product Details -->
-<div>
-    <h2 class="product-title">Y2K Platform Cover Boots</h2>
-    <h3 class="product-price">$25.50 SGD</h3>
+    <div>
+        <h2 class="product-title">Y2K Platform Cover Boots</h2>
+        <h3 class="product-price">$25.50 SGD</h3>
 
 <!-- Product Order Form -->
     <form action="thanksOrder.html" method="post">
@@ -42,113 +43,117 @@
         <!-- Colour Choice -->
         <h4>COLOUR</h4>
         <label>
-            <input type="radio" name="colour" value="Black" checked required>Black
+            <input type="radio" name="colour" value="Black" checked required class="black-btn">Black
         </label>
         <label>
-            <input type="radio" name="colour" value="Brown">Brown
+            <input type="radio" name="colour" value="Brown" class="brown-btn">Brown
         </label>
 
 <br><br><!-- Size Choice -->    
-        <h4>SIZE</h4>
-        <label>
-            <input type="radio" name="size" value="XXS" required>35
+        <h4 class="h4-txt">SIZE</h4>
+        <label class="size-btn">
+            <input type="radio" name="size" value="34" required class="size"><span>34</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="XS">36
+        <label class="size-btn">
+            <input type="radio" name="size" value="35" required class="size"><span>35</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="S">37
+        <label class="size-btn">
+            <input type="radio" name="size" value="36" required class="size"><span>36</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="M">38
+        <label class="size-btn">
+            <input type="radio" name="size" value="37" required class="size"><span>37</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="L">39
+        <label class="size-btn">
+            <input type="radio" name="size" value="38" required class="size"><span>38</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="XL">40
+        <label class="size-btn">
+            <input type="radio" name="size" value="39" required class="size"><span>39</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="2XL">41
+        <label class="size-btn">
+            <input type="radio" name="size" value="40" required class="size"><span>40</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="3XL">42
+        <label class="size-btn">
+            <input type="radio" name="size" value="41" required class="size"><span>41</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="4XL">43
+        <label class="size-btn">
+            <input type="radio" name="size" value="42" required class="size"><span>42</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="5XL">44
+        <label class="size-btn">
+            <input type="radio" name="size" value="43" required class="size"><span>43</span>
         </label>
 
 <br><br><!-- Product Description -->
-        <h4>DESCRIPTION</h4>
+        <h4 class="h4-txt">DESCRIPTION</h4>
         <p class="product-descript">Drop into the Y2K aesthetic with these double belt buckle & zipped high ankle platform boots!<br>
         Perfect for those who want to make a statement with their footwear or want to seem a little taller.<br>
         <br>Illustrated & Designed by: @MingLu04</p>
 
-<br><br><!-- Quantity Choice -->
+<!-- Quantity Choice -->
         <h4>QUANTITY</h4>
         <label>
             <input type="number" name="amount" min="1" max="10" required value="1">
         </label>
         
-<br><br><!-- Order & Cancel Button-->
+<!-- Order & Cancel Button-->
             <button type="reset" class="Obtn" value="Cancel">CANCEL</button>
             <button type="submit" class="Obtn" value="Order">✪RDER</button>
         </form>
     </div>
 </div>
 
+
 <br><br>
+<section class="commentSection">
 <!-- Fake reviews & Ratings-->
 <table>
+    <caption>CUSTOMER REVIEWS</caption>
     <tr>
-        <th>USER</th>
+        <th class="user">USER</th>
         <th>COMMENT</th>
         <th>RATING</th>
     </tr>
     <tr>
-        <td>BBConsumer</td>
+        <td class="user">BBConsumer</td>
         <td>super radical, all my friends keep asking me where I got it and I've become the most popular person to have
              ever stand out</td>
-        <td>⭐⭐⭐⭐⭐<br>SUPERNOVAE</td>
+        <td class="rating">⭐⭐⭐⭐⭐<br>SUPERNOVAE</td>
     </tr>
     <tr>
-        <td>JonnyT</td>
+        <td class="user">JonnyT</td>
         <td>Oh My Gosh! i have to say i love it because its so beautiful, the leather material is okkkk i like it so much,
              it came fast & im so happy i love it so much</td>
-        <td>⭐⭐⭐⭐☆<br>NOVA</td>
+        <td class="rating">⭐⭐⭐⭐☆<br>NOVA</td>
     </tr>
     <tr>
-        <td>Vxnessa</td>
+        <td class="user">Vxnessa</td>
         <td>True to size but my belt fell off once</td>
-        <td>⭐⭐⭐⭐☆<br>NOVA</td>
-    </tr>
-
-    <tr class="NOVAEresponse">
-        <td>NOVAE</td>
-        <td>Hello Vxnessa, deepest apologies for the manufacturing defect. Please contact us personally for a replacement or a full refund from us!</td>
+        <td class="rating">⭐⭐⭐⭐☆<br>NOVA</td>
     </tr>
 
     <tr>
-        <td>Felipe🦩</td>
+        <td class="NOVAEuser">NOVAE</td>
+        <td colspan="2" class="NOVAEresponse">Hello Vxnessa, deepest apologies for the manufacturing defect. Please contact us personally for a replacement or a full refund from us!</td>
+    </tr>
+
+    <tr>
+        <td class="user">Felipe🦩</td>
         <td>The product came in damaged.</td>
-        <td>⭐⭐☆☆☆<br>DWARF</td>
+        <td class="rating">⭐⭐☆☆☆<br>DWARF</td>
     </tr>
     
-    <tr class="NOVAEresponse">
-        <td>NOVAE</td>
-        <td>Dear Felipe, we're truly sorry for the damaged shoes🙏 Upon checking, we found that the issue was due to the rough shipping to your location. We would like to offer you a replacement or a full refund, please contact us personally and again we sincerely apologize.</td>
+    <tr>
+        <td class="NOVAEuser">NOVAE</td>
+        <td colspan="2" class="NOVAEresponse">Dear Felipe, we're truly sorry for the damaged shoes🙏 Upon checking, we found that the issue was due to the rough shipping to your location. We would like to offer you a replacement or a full refund, please contact us personally and again we sincerely apologize.</td>
     </tr>
 
 <!-- 1=DUST, 2=DWARF, 3=STELLAR, 4=NOVA, 5=SUPERNOVA -->
 </table>
-
+</section>
 
 <!-- STEP 7 — Footer line. -->
 <section class="section2">
-<div>    
+<div>   
+<br><hr class="footline"><br>
 <br>
     <p class="subTxt">Have more questions? Want more details?</p>
     <a href="contactUsPage.html"><h3 class="subTxt2">CONTACT US!</h3></a>
