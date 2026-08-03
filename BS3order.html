@@ -1,4 +1,4 @@
-<!-- Author: ONG YITING, 261273Y -->
+<!-- Author: ONG YITING, 261273Y --> <!-- Addtional support with code from the internet and class notes -->
 <!-- ^ Requirement (h): every HTML file in your project starts with this line. -->
 
 <!DOCTYPE html>
@@ -25,66 +25,68 @@
     </ul>
 </nav>
 
+<div class="container">
 <!-- Product Image -->
-<div>
-    <img src="BestSeller3-JewelryTrendsNC.png" alt="NOVAE Silver Pendant Necklace" class="product-img">
-</div>
+    <div>
+        <img src="BestSeller3-JewelryTrendsNC.png" alt="NOVAE Silver Pendant Necklace" class="product-img">
+    </div>
 
 <!-- Product Details -->
-<div>
-    <h2>NOVAE Silver Pendant Necklace</h2>
-    <h3>$22.21 SGD</h3>
-</div>
+    <div>
+        <h2 class="product-title">NOVAE Silver Pendant Necklace</h2>
+        <h3 class="product-price">$22.21 SGD</h3>
+
 
 
 <!-- Product Order Form -->
     <form action="thanksOrder.html" method="post">
 
         <!-- Colour Choice -->
-        <h4>COLOUR</h4>
+        <h4>MATERIAL</h4>
         <label>
-            <input type="radio" name="colour" value="Silver" checked required>Silver
+            <input type="radio" name="material" value="Silver" checked required class="silver-btn">Silver
         </label>
         <label>
-            <input type="radio" name="colour" value="Gold">Gold
+            <input type="radio" name="material" value="Gold" class="gold-btn">Gold
         </label>
         <label>
-            <input type="radio" name="colour" value="Palladium">Palladium
+            <input type="radio" name="material" value="Palladium" class="palladium-btn">Palladium
         </label>
 
 <br><br><!-- Size Choice -->    
         <h4>SIZE</h4>
-        <label>
-            <input type="radio" name="size" value="XS">XS
+        <label class="size-btn">
+            <input type="radio" name="size" value="XS" required class="size"><span>XS</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="S">S
+        <label class="size-btn">
+            <input type="radio" name="size" value="S" required class="size"><span>S</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="M">M
+        <label class="size-btn">
+            <input type="radio" name="size" value="M" required class="size"><span>M</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="L">L
+        <label class="size-btn">
+            <input type="radio" name="size" value="L" required class="size"><span>L</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="XL">XL
+        <label class="size-btn">
+            <input type="radio" name="size" value="XL" required class="size"><span>XL</span>
         </label>
 
 
 <br><br><!-- Product Description -->
         <h4>DESCRIPTION</h4>
         <p class="product-descript">Show off your support for the NOVAE brand with our necklace.<br>
-        Made of high-quality sterling silver, this pendant is lightweight and gender-neutral with a low-profile design, perfect for any occasion.<br>
+        Made of high-quality sterling silver, this pendant is lightweight and gender-neutral with a low-profile design, perfect for any occasion.<br><br>
         Illustrated & Designed by: @NOVAE<br>
+        Honorable Mentions by: @LG-Ninja
         </p>
 
-<br><br><!-- Quantity Choice -->
+<!-- Quantity Choice -->
         <h4>QUANTITY</h4>
         <label>
             <input type="number" name="amount" min="1" max="10" required value="1">
         </label>
         
-<br><br><!-- Order & Cancel Button-->
+<!-- Order & Cancel Button-->
             <button type="reset" class="Obtn" value="Cancel">CANCEL</button>
             <button type="submit" class="Obtn" value="Order">✪RDER</button>
         </form>
@@ -92,42 +94,54 @@
 </div>
 
 <br><br>
+<section class="commentSection">
 <!-- Fake reviews & Ratings-->
 <table>
+    <caption>CUSTOMER REVIEWS</caption>
     <tr>
-        <th>USER</th>
+        <th class="user">USER</th>
         <th>COMMENT</th>
         <th>RATING</th>
     </tr>
     <tr>
-        <td>LG-Ninja</td>
-        <td>Production and customer service went above and beyond + excellent communication + would buy this for a friend</td>
-        <td>⭐⭐⭐⭐⭐<br>SUPERNOVA</td>
-    </tr>
-    <tr>
-        <td>SP1D3RS</td>
-        <td>Wore this to a wedding and it was a hit! Peak product</td>
-        <td>⭐⭐⭐⭐☆<br>NOVA</td>
+        <td class="user">LG-Ninja</td>
+        <td>Novae, it was a pleasure collaborating with you! Excellent communication, outstanding customer service, 
+            and a smooth production process from start to finish. We look forward to working with you again and creating more jewellery together.</td>
+        <td class="rating">⭐⭐⭐⭐⭐<br>SUPERNOVAE</td>
     </tr>
 
-    <tr class="NOVAEresponse">
-        <td>NOVAE</td>
-        <td>Congratulations to the newlyweds, SP1D3RS! We are thrilled to hear that our necklace enhanced your already stunning looks.</td>
-    </tr>
-    
     <tr>
-        <td>SquidBeak</td>
-        <td>This star has left no trace in the cosmos.</td>
-        <td>⭐⭐⭐☆☆<br>STELLAR</td>
+        <td class="NOVAEuser">NOVAE</td>
+        <td colspan="2" class="NOVAEresponse">Thank you, LG-Ninja! The pleasure was ours as well. We truly appreciate your business 
+            and look forward to collaborating with you again in the future.</td>
+    </tr>
+
+    <tr>
+        <td class="user">SP1D3RS</td>
+        <td>Wore the necklace to my cousins wedding and it was a hit, got compliments left and right! Peak necklace ^-^</td>
+        <td class="rating">⭐⭐⭐⭐☆<br>NOVA</td>
+    </tr>
+
+    <tr>
+        <td class="NOVAEuser">NOVAE</td>
+        <td colspan="2" class="NOVAEresponse">Congratulations to the newlyweds, SP1D3RS! We are thrilled to hear that our necklace 
+            enhanced your already stunning looks.</td>
+    </tr>
+
+    <tr>
+        <td class="user">SquidBeak</td>
+        <td>TThis star has left no trace in the cosmos.</td>
+        <td class="rating">⭐⭐⭐☆☆<br>STELLAR</td>
     </tr>
 
 <!-- 1=DUST, 2=DWARF, 3=STELLAR, 4=NOVA, 5=SUPERNOVA -->
 </table>
-
+</section>
 
 <!-- STEP 7 — Footer line. -->
 <section class="section2">
-<div>    
+<div>   
+<br><hr class="footline"><br>
 <br>
     <p class="subTxt">Have more questions? Want more details?</p>
     <a href="contactUsPage.html"><h3 class="subTxt2">CONTACT US!</h3></a>
