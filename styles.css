@@ -540,9 +540,64 @@ th, td {
 
 /* ================ THANKS 4 ORDERING PAGE ================ 
 */
+.box {
+    background-color: #ffffff;
+    max-width: 45vw;
+    height: 22vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    margin: 0 auto;
+    margin-top: 6.5vw;
+    margin-bottom: 6.5vw;}
 
+.shop-btn {
+    text-align: center;
+    text-decoration: none;
+    background-color: #2c2604;
+    border-radius: 1vw;
+    margin-right: 3.6vw;
+    padding: 1vw;
+    padding-left: 1.28vw;
+    padding-right: 1.28vw;}
 
-/* MEDIA */
+.home-btn {
+    text-align: center;
+    text-decoration: none;
+    background-color: #2c2604;
+    border-radius: 1vw;
+    padding: 1vw;}
+
+a.shop-btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.28vw;
+transition:  box-shadow 0.3s ease;}
+
+a.home-btn {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.28vw;
+    transition:  box-shadow 0.3s ease;}
+
+a.shop-btn:hover {
+    text-decoration: none;
+    color: #f2a33c;
+    font-size: 1.28vw;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);}
+
+a.home-btn:hover {
+    text-decoration: none;
+    color: #f2a33c;
+    font-size: 1.28vw;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);}
+
+.thanks {
+    font-style: normal;}
+
+/* MEDIA
+*/
 @media (max-width: 1000px) {
     h1 {
         font-size: 4.16vw;
