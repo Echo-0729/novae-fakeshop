@@ -1,4 +1,4 @@
-<!-- Author: ONG YITING, 261273Y -->
+<!-- Author: ONG YITING, 261273Y --> <!-- Addtional support with code from the internet and class notes -->
 <!-- ^ Requirement (h): every HTML file in your project starts with this line. -->
 
 <!DOCTYPE html>
@@ -25,17 +25,16 @@
     </ul>
 </nav>
 
+<div class="container">
 <!-- Product Image -->
-<div>
-    <img src="BestSeller2-LilK.jpg" alt="Weird 77 Black & White Jersey" class="product-img">
-</div>
+    <div>
+        <img src="BestSeller2-LilK.jpg" alt="Weird 77 Black & White Jersey" class="product-img">
+    </div>
 
 <!-- Product Details -->
-<div>
-    <h2>Weird 77 Black & White Jersey</h2>
-    <h3>$30.99 SGD</h3>
-</div>
-
+    <div>
+        <h2 class="product-title">Weird 77 Black & White Jersey</h2>
+        <h3 class="product-price">$30.99 SGD</h3>
 
 <!-- Product Order Form -->
     <form action="thanksOrder.html" method="post">
@@ -43,46 +42,46 @@
         <!-- Colour Choice -->
         <h4>COLOUR</h4>
         <label>
-            <input type="radio" name="colour" value="Black&White" checked required>Default
+            <input type="radio" name="colour" value="Black&White" checked required class="black-btn">Default
         </label>
         <label>
-            <input type="radio" name="colour" value="Inverted">Inverted
+            <input type="radio" name="colour" value="Inverted" class="white-btn">Inverted
         </label>
         <label>
-            <input type="radio" name="colour" value="Blue&Yellow">Blue & Yellow
+            <input type="radio" name="colour" value="Blue&Yellow" class="blue-btn">Blue & Yellow
         </label>
 
 <br><br><!-- Size Choice -->    
         <h4>SIZE</h4>
-        <label>
-            <input type="radio" name="size" value="XXS" required>XXS
+        <label class="size-btn">
+            <input type="radio" name="size" value="XXS" required class="size"><span>XXS</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="XS">XS
+        <label class="size-btn">
+            <input type="radio" name="size" value="XS" required class="size"><span>XS</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="S">S
+        <label class="size-btn">
+            <input type="radio" name="size" value="S" required class="size"><span>S</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="M">M
+        <label class="size-btn">
+            <input type="radio" name="size" value="M" required class="size"><span>M</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="L">L
+        <label class="size-btn">
+            <input type="radio" name="size" value="L" required class="size"><span>L</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="XL">XL
+        <label class="size-btn">
+            <input type="radio" name="size" value="XL" required class="size"><span>XL</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="2XL">2XL
+        <label class="size-btn">
+            <input type="radio" name="size" value="2XL" required class="size"><span>2XL</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="3XL">3XL
+        <label class="size-btn">
+            <input type="radio" name="size" value="3XL" required class="size"><span>3XL</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="4XL">4XL
+        <label class="size-btn">
+            <input type="radio" name="size" value="4XL" required class="size"><span>4XL</span>
         </label>
-        <label>
-            <input type="radio" name="size" value="5XL">5XL
+        <label class="size-btn">
+            <input type="radio" name="size" value="5XL" required class="size"><span>5XL</span>
         </label>
 
 <br><br><!-- Product Description -->
@@ -92,13 +91,13 @@
             <br>Illustrated by: @StephanieP<br>
             Designed by: @EvanFong</p>
 
-<br><br><!-- Quantity Choice -->
+<!-- Quantity Choice -->
         <h4>QUANTITY</h4>
         <label>
             <input type="number" name="amount" min="1" max="10" required value="1">
         </label>
         
-<br><br><!-- Order & Cancel Button-->
+<!-- Order & Cancel Button-->
             <button type="reset" class="Obtn" value="Cancel">CANCEL</button>
             <button type="submit" class="Obtn" value="Order">✪RDER</button>
         </form>
@@ -106,42 +105,45 @@
 </div>
 
 <br><br>
+<section class="commentSection">
 <!-- Fake reviews & Ratings-->
 <table>
+    <caption>CUSTOMER REVIEWS</caption>
     <tr>
-        <th>USER</th>
+        <th class="user">USER</th>
         <th>COMMENT</th>
         <th>RATING</th>
     </tr>
     <tr>
-        <td>Daithi742</td>
+        <td class="user">Daithi742</td>
         <td>A Black Hole consumed this comment.</td>
-        <td>⭐⭐⭐⭐⭐<br>SUPERNOVA</td>
+        <td class="rating">⭐⭐⭐⭐⭐<br>SUPERNOVAE</td>
     </tr>
     <tr>
-        <td>KingCalibre</td>
-        <td>Bit pricey but worth it.</td>
-        <td>⭐⭐⭐☆☆<br>STELLAR</td>
+        <td class="user">1amWildcat</td>
+        <td>No signal from this system.</td>
+        <td class="rating">⭐⭐⭐☆☆<br>STELLAR</td>
     </tr>
-    
-    <tr class="NOVAEresponse">
-        <td>NOVAE</td>
-        <td>Hi KingCalibre, thank you for your feedback. We'll definitely be working on decreasing the price point but keeping the quality high for our next collection!🫡</td>
+    <tr>
+        <td class="user">KingCalibre</td>
+        <td>The jersey is quite pricey but I'd say it's worth it.</td>
+        <td class="rating">⭐⭐☆☆☆<br>DWARF</td>
     </tr>
 
     <tr>
-        <td>1amWildcat</td>
-        <td>No signal from this system.</td>
-        <td>⭐⭐⭐☆☆<br>STELLAR</td>
+        <td class="NOVAEuser">NOVAE</td>
+        <td colspan="2" class="NOVAEresponse">Hi KingCalibre, thank you for your feedback. 
+            We'll definitely be working on decreasing the price point but keeping the quality high for our next collection!🫡</td>
     </tr>
 
 <!-- 1=DUST, 2=DWARF, 3=STELLAR, 4=NOVA, 5=SUPERNOVA -->
 </table>
-
+</section>
 
 <!-- STEP 7 — Footer line. -->
 <section class="section2">
-<div>    
+<div>   
+<br><hr class="footline"><br>
 <br>
     <p class="subTxt">Have more questions? Want more details?</p>
     <a href="contactUsPage.html"><h3 class="subTxt2">CONTACT US!</h3></a>
