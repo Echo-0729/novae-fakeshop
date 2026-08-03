@@ -117,14 +117,7 @@ body {
     display: flex; }
 
 
-/* =========================
-   PRODUCTS Heading
-========================= */
-
-
-/* =========================
-   Breadcrumb
-========================= */
+/*PRODUCTS Heading*/
 
 .hero-overlay p{
     margin: 0;
@@ -132,9 +125,7 @@ body {
     color: black;
 }
 
-/* =========================
-   Home Link
-========================= */
+/*Home Link*/
 
 .hero-btn{
     color: black;
