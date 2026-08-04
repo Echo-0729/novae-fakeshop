@@ -298,7 +298,7 @@ summary {
     font-family: default;
     color: #ffffff;}
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
     h1 {
         font-size: 4.16vw;
         margin: 1vw;}
@@ -309,8 +309,11 @@ summary {
     font-size: 2.25vw;
     display: block; 
     margin: 0.32vw 0; }
-   .row   { 
-    flex-direction: column; }
+   .card-row   { 
+    flex-direction: column;
+   .card-one{
+       width:93%
+        }
 
     .hero {
         min-height: 42vw;
