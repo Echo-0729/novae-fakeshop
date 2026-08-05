@@ -214,7 +214,7 @@ summary {
     font-family: default;
     color: #ffffff;}
 
-@media (max-width: 1000px)
+@media (max-width: 1000px){
     h1{
         font-size: 4.16vw;
         margin: 1.0vw;}
@@ -226,19 +226,4 @@ summary {
     font-size: 1.60vw;
     display: block; 
     margin: 0.32vw 0; }
-   .row   { 
-    flex-direction: column; }
-
-    .hero {
-        min-height: 42vw;
-        margin-bottom: 3.2vw;}
-    .hero-overlay {
-        left: 10%;
-        width: 26vw;
-        padding: 1.6vw;
-        padding-right: 5vw;}
-    .hero-overlay p {
-        font-size: 2.1vw;}
-    .hero-btn {
-        padding: 0.96vw 1.28vw;
-        border-radius: 0.4vw;}
+}
