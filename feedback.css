@@ -168,3 +168,9 @@ button[type="submit"]:hover {
     cursor: pointer;
     border-color: #f2a33c;
     color: #f2a33c;}
+
+    @media (max-width: 1000px) {
+ .nav a {
+    font-size: 2.25vw;
+    display: block; 
+    margin: 0.32vw 0;}}
