@@ -28,6 +28,11 @@ h3 {
     font-style: none; 
     margin-bottom: 5px; 
     font-size: 25px;}
+h4 {
+    text-align: center; 
+    font-style: none; 
+    margin-bottom: 3px; 
+    font-size: 3.0vw;}
 
 p {
     text-align: center; 
@@ -43,10 +48,10 @@ body {
 .nav ul { 
     list-style-type: none;  
     background-color: #2c2604;
-    padding: 15px 40px;
+    padding: 0.96vw 2.56vw;
     width: 100vw;
     display: flex; 
-    gap: 100px;
+    gap: 6.4vw;
     justify-content: center;
     margin: 0;
     margin-bottom: 0px;
@@ -56,7 +61,7 @@ body {
     text-decoration: none; 
     color: #ffffff; 
     font-family: default;
-    font-size: 20px; 
+    font-size: 1.6vw; 
     font-style: none; 
     transition: 0.3s;}
 .nav a:hover { 
@@ -64,9 +69,9 @@ body {
 
 .hero-all {
     position: relative;
-    min-height: 500px;
+    min-height: 32vw;
     padding: 0px;
-    margin: 0 0 24px;
+    margin: 0 0 1.6vw;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
     background: url("aboutuss.jpeg") center/cover no-repeat;}
@@ -77,10 +82,10 @@ body {
     top: 50%;
     transform: translateY(-50%);
     flex-direction: column;
-    gap:10px;
+    gap:0.70vw;
 
     width: 230px;
-    padding: 25px;
+    padding: 2.5vw;
     border-radius: 10px;
     background: rgba(255,255,255,0.4);
      border: 1px solid rgba(0,0,0,0.5);}
