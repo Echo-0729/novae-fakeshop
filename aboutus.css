@@ -86,7 +86,7 @@ body {
     flex-direction: column;
     gap:0.70vw;
 
-    width: 230px;
+    width: 16.50vw;
     padding: 2.50vw;
     border-radius: 10px;
     background: rgba(255,255,255,0.4);
@@ -119,19 +119,19 @@ color: black;
     display:grid;
     grid-template-columns:1fr 1fr;
     width:100%;
-    margin:50px auto;
+    margin: 2.604vw auto;
 }
 
 .image-box img{
     width:100%;
-    height:350px;
+    height:2.33vw;
     object-fit:cover;
     display:block;
 }
 
 .text-box{
     background:white;
-    padding:60px;
+    padding:2.58vw;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -139,12 +139,12 @@ color: black;
 
 .text-box h2{
     text-align:left;
-    font-size:42px;
-    margin-bottom:20px;
+    font-size:2.604vw;
+    margin-bottom:1.042vw;
 }
 .text-box p{
     text-align:left;
-    font-size:20px;
+    font-size:1.042vw;
 }
 .box{
     width:90%;
