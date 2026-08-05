@@ -1,4 +1,4 @@
-<!-- Author: Aaryaavinash Paartheeban, ADMIN NUMBER -->261275C
+<!-- Author: Aaryaavinash Paartheeban, ADMIN NUMBER --> 
 <!-- ^ Requirement (h): every HTML file in your project starts with this line. -->
 <!DOCTYPE html>
 <html lang="en">
@@ -33,10 +33,10 @@
 
 <!-- Continue coding from here -->
 
+<form action="thanksFeedback.html" method="get">
 
 <h2> Customer Feedback </h2>
 
-<h3> Your Name:</h3>
 <label for="custname"> Your Name:</label>
 <br>
 <input type="text" name="custname"
@@ -44,7 +44,7 @@ id="custname" size="50">
 
 <label for="email">E-Mail: </label>
 <input type="email" name="email" id="email"
-placeholder="you@example.com" required>
+placeholder="your email@gmail.com" required>
 
 <h4> Your Rating:</h4>
 <p> Your Rating:</p>
@@ -66,16 +66,18 @@ placeholder="you@example.com" required>
 <h5> Your Comment:</h5>
 <p> Special Requests: </p>
 <textarea name="notes" id="notes"
-rows="10" cols="50"> 
+rows="10" cols="50" 
+placeholder="type your message" required>
 </textarea>
 
-<input type="reset" value="Clear Form">
-
-<input type="submit" value="Submit Feedback">
-
-    
+                
+<button type="reset" class="Obtn" value="Clear Form">Clear Form</button>
+<button type="submit" class="Obtn" value="Submit Feedback">Submit Form</button>
 
 
+
+</form>
+   
 
 
 
