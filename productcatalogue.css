@@ -310,7 +310,7 @@ summary {
     display: block; 
     margin: 0.32vw 0; }
    .card-row   { 
-    flex-direction: column;
+    flex-direction: column;}
    .card-one{
        width:93%
         }
