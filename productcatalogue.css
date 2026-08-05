@@ -351,13 +351,28 @@ summary {
     font-size: 2.33vw; 
     font-style: none; 
     transition: 0.3s;}
-     .card-row {
+.card-row {
   width: 93%;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  column-gap: 70px;
+  column-gap: 60px;
   row-gap: 45px;
+}
+    .card-all img {
+  display: block;
+  width: 100%;
+    max-width: 100%;
+  height: 58vw;
+  object-fit: cover;
+  margin: auto;
+
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.22);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 h3 {
     font-size: 23px;
