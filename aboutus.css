@@ -15,8 +15,8 @@ caption { font-weight: bold; padding: 6px; }
 h1 {
     text-align: center; 
     font-style: italic; 
-    margin-bottom: 0.66vw; 
-    font-size: 2.88vw;}
+    margin-bottom: 9px; 
+    font-size: 45px;}
 
 h2 {
     text-align: center; 
@@ -29,12 +29,6 @@ h3 {
     font-style: none; 
     margin-bottom: 5px; 
     font-size: 25px;}
-h4 {
-    text-align: center; 
-    font-style: none; 
-    margin-top:auto;
-    margin-bottom: 3px; 
-    font-size: 3.0vw;}
 
 p {
     text-align: center; 
@@ -50,10 +44,10 @@ body {
 .nav ul { 
     list-style-type: none;  
     background-color: #2c2604;
-    padding: 0.96vw 2.56vw;
+    padding: 15px 40px;
     width: 100vw;
     display: flex; 
-    gap: 6.4vw;
+    gap: 100px;
     justify-content: center;
     margin: 0;
     margin-bottom: 0px;
@@ -63,7 +57,7 @@ body {
     text-decoration: none; 
     color: #ffffff; 
     font-family: default;
-    font-size: 1.6vw; 
+    font-size: 20px; 
     font-style: none; 
     transition: 0.3s;}
 .nav a:hover { 
@@ -71,9 +65,9 @@ body {
 
 .hero-all {
     position: relative;
-    min-height: 32vw;
+    min-height: 500px;
     padding: 0px;
-    margin: 0 0 1.6vw;
+    margin: 0 0 24px;
     margin-left: calc(-50vw + 50%);
     margin-right: calc(-50vw + 50%);
     background: url("aboutuss.jpeg") center/cover no-repeat;}
@@ -84,17 +78,17 @@ body {
     top: 50%;
     transform: translateY(-50%);
     flex-direction: column;
-    gap:0.70vw;
+    gap:10px;
 
-    width: 16.50vw;
-    padding: 2.50vw;
+    width: 230px;
+    padding: 25px;
     border-radius: 10px;
     background: rgba(255,255,255,0.4);
      border: 1px solid rgba(0,0,0,0.5);}
 
 .hero-all-overlay p{
    margin: 0;
-    font-size: 1.30vw;
+    font-size: 18px;
     color: black;
 }
 
@@ -119,19 +113,19 @@ color: black;
     display:grid;
     grid-template-columns:1fr 1fr;
     width:100%;
-    margin: 2.604vw auto;
+    margin:50px auto;
 }
 
 .image-box img{
     width:100%;
-    height:2.33vw;
+    height:350px;
     object-fit:cover;
     display:block;
 }
 
 .text-box{
     background:white;
-    padding:2.58vw;
+    padding:60px;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -139,12 +133,12 @@ color: black;
 
 .text-box h2{
     text-align:left;
-    font-size:2.604vw;
-    margin-bottom:1.042vw;
+    font-size:42px;
+    margin-bottom:20px;
 }
 .text-box p{
     text-align:left;
-    font-size:1.042vw;
+    font-size:20px;
 }
 .box{
     width:90%;
@@ -215,22 +209,21 @@ summary {
     color: #ffffff;}
 .section2 {
     background-color: #2c2604;
-    padding: 1.28vw;
+    padding: 20px;
     border-radius: 0px;
     margin-left: calc(-50vw + 50%);
-    margin-right: calc(-50vw + 50%);
-    margin-bottom: -5vw;}
+    margin-right: calc(-50vw + 50%);}
 summary {
     cursor: pointer; 
     font-weight: bold; 
-    padding: 0.32vw 0;}
+    padding: 5.5px 0;}
 
 .subTxt,
 .subTxt2 {
     display: inline-block;
-    font-size: 1.472vw;
+    font-size: 23px;
     color: #ffffff;
-    margin: 0 0.0768vw 0.64vw 8.96vw;
+    margin: 0 12px 10px 140px;
     font-family: default;
     font-weight: none;}
 .subTxt2 {
@@ -249,14 +242,14 @@ summary {
 
 #footer {
     font-style: italic;
-    font-size: 1.152vw;
+    font-size: 18px;
     font-family: default;
     color: #ffffff;}
 
-@media (max-width: 1000px) {
-    h1 {
+@media (max-width: 1000px)
+    h1{
         font-size: 4.16vw;
-        margin: 1vw;}
+        margin: 1.0vw;}
      h2 {
         font-size: 3.52vw;
         margin: 1.28vw;}
