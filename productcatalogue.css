@@ -325,7 +325,7 @@ summary {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 30px;
-  
+  row-gap: 15px;
 }
     
 .subTxt {
@@ -372,7 +372,7 @@ summary {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 30px;
-  
+  row-gap: 15px;
 }
 .card-all img {
   height: 40vw;
@@ -422,7 +422,7 @@ border-radius: 9px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 30px;
-  
+  row-gap: 15px;
 }
 .card-all img {
   width: 160%;
@@ -462,14 +462,14 @@ border-radius: 8px;
   width: 93%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 30px;
-  
+  row-gap: 15px;
 }
 .card-all img {
-  width: 160%;
+  width: 150%;
    
-  height: 40vw;
+  height: 55vw;
 }
 h3 {
     font-size: 13px;
